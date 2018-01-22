@@ -1,5 +1,5 @@
 sum=0
-for f in $(find "$1")
+for f in $(find "$1" ! -type d)
 do
 	sum="$(($(cat $f | wc -l) + $sum))"
 done
