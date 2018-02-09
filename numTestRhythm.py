@@ -32,10 +32,11 @@ def test(start):
 				pauseMod += 1
 		if tdelta >= 0:
 			#print tdelta
-			#print tdelta % pause
-			print "Extending"
+			print str(testLength + (tdelta % pause) + (pause * pauseMod)) + " : " + str(delta)
+			#print "Extending"
 			degRatio = (360.0 / (testLength + ((tdelta % pause) + (pause * pauseMod))))
 		else:
+			print str(testLength + (pause * pauseMod)) + "   : " + str(delta)
 			degRatio = (360.0 / (testLength + (pause * pauseMod)))
 
 		cycleLength = (delay + testLength + ((4 * pause) * (1 + int(pauseMod / 4))))
@@ -70,6 +71,6 @@ def test(start):
 start = round(time.time() * 1000)
 
 for i in range(17100):
-	print test(start)
-	#test(start)
+	#print test(start)
+	test(start)
 	time.sleep(.01)
