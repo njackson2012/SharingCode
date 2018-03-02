@@ -1,0 +1,2688 @@
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.12678055E-36 0
+posx: 417.45508
+posy: 1.06842555E-4
+posz: 2.03659E-25
+quatx: 2.5624648E19
+quaty: 7.6615706E-15
+quatz: 1.080293E21
+quatw: 7.444601E-15
+gforcex: -3.7001728E-11
+gforcey: 1.2697355E-4
+gforcez: 2.47904289E11
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.9928554E-36 0
+posx: 140.59752
+posy: 3.7493886E-5
+posz: 2.0394561E-25
+quatx: 3.612469E20
+quaty: 7.455568E-15
+quatz: 1.9336942E21
+quatw: 4.7022255E-15
+gforcex: -9.305436E-6
+gforcey: 1.6534159E-6
+gforcez: 2.89922417E10
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 5.59026E-36 0
+posx: 81.23134
+posy: 2.1474552E-5
+posz: 2.0425839E-25
+quatx: 1.07669E21
+quaty: 4.679472E-15
+quatz: 5.4352266E21
+quatw: 4.625251E-15
+gforcex: -2.3927245
+gforcey: 2.262293E-8
+gforcez: 5.5475067E9
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.6764119E-35 0
+posx: 27.805912
+posy: 7.177308E-6
+posz: 2.0451161E-25
+quatx: 3.2665258E21
+quaty: 4.5775405E-15
+quatz: 9.2629705E21
+quatw: 4.5461626E-15
+gforcex: 2041438.9
+gforcey: -2.2166618E-13
+gforcez: 3.8622048E8
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.954063E-35 0
+posx: 15.279339
+posy: 4.0306454E-6
+posz: 2.0473371E-25
+quatx: 9.1591895E21
+quaty: 4.4756696E-15
+quatz: 2.790001E22
+quatw: 4.465864E-15
+gforcex: 1.37639258E9
+gforcey: -3.8274183E-17
+gforcez: 7.0475992E7
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 8.5136206E-35 0
+posx: 5.5117784
+posy: 1.4551425E-6
+posz: 2.0495305E-25
+quatx: 2.8211314E22
+quaty: 2.7147465E-15
+quatz: 4.881562E22
+quatw: 2.7180298E-15
+gforcex: 5.21603777E11
+gforcey: -3.74206E-21
+gforcez: 1.4378674E7
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.5269758E-34 0
+posx: 1.8462682
+posy: 8.085989E-7
+posz: 2.0511246E-25
+quatx: 7.888882E22
+quaty: 2.6643538E-15
+quatz: 1.3695036E23
+quatw: 2.6746586E-15
+gforcex: 2.12079059E14
+gforcey: -7.949857E-26
+gforcez: 1706264.2
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 7.1642243E-34 0
+posx: 1.0164981
+posy: 2.763013E-7
+posz: 2.0526863E-25
+quatx: 1.4276074E23
+quaty: 2.6144553E-15
+quatz: 2.4683909E23
+quatw: 2.6291354E-15
+gforcex: 2.40436152E17
+gforcey: -7.609793E-30
+gforcez: 550697.0
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.1728192E-33 0
+posx: 0.3709781
+posy: 9.655294E-8
+posz: 2.0536436E-25
+quatx: 4.3337505E23
+quaty: 1.5462399E-15
+quatz: 7.011378E23
+quatw: 1.5549165E-15
+gforcex: 2.6813873E20
+gforcey: -1.5399017E-34
+gforcez: 110064.875
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.892568E-33 0
+posx: 0.12180496
+posy: 3.2058058E-8
+posz: 2.0542788E-25
+quatx: 1.19531436E24
+quaty: 1.5213209E-15
+quatz: 1.2023237E24
+quatw: 1.52998E-15
+gforcex: 2.9500408E23
+gforcey: 3.346339E38
+gforcez: 12814.216
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.1223456E-32 0
+posx: 0.06988642
+posy: 1.837472E-8
+posz: 2.05459E-25
+quatx: 3.6622272E24
+quaty: 8.805703E-16
+quatz: 3.6792388E24
+quatw: 1.5045045E-15
+gforcex: 2.664954E24
+gforcey: -8.7409766E-35
+gforcez: 191258.06
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.4078868E-32 0
+posx: 0.024741324
+posy: 6.2769336E-9
+posz: 2.0546018E-25
+quatx: 6.459923E24
+quaty: 8.697232E-16
+quatz: 6.485109E24
+quatw: 8.7229586E-16
+gforcex: 3.20070304E15
+gforcey: 0.14730196
+gforcez: 2.76487647E14
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 9.5996875E-32 0
+posx: 0.013679119
+posy: 2.1140594E-9
+posz: 2.0548969E-25
+quatx: 1.100798E25
+quaty: 8.60381E-16
+quatz: 1.784362E25
+quatw: 8.6214184E-16
+gforcex: -0.4746704
+gforcey: 1.6638469E22
+gforcez: 4.259026E23
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.9872805E-31 0
+posx: 0.0047448473
+posy: 7.3749434E-10
+posz: 2.0549059E-25
+quatx: 1.8584457E25
+quaty: 8.5291744E-16
+quatz: 3.147342E25
+quatw: 8.540017E-16
+gforcex: -5.650197E-26
+gforcey: 7.9722883E34
+gforcez: 5.4311555E29
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.4107078E-30 0
+posx: 0.0016387838
+posy: 2.4005473E-10
+posz: 2.0549126E-25
+quatx: 3.2606767E25
+quaty: 8.4709663E-16
+quatz: 3.2625027E25
+quatw: 8.476411E-16
+gforcex: -0.07094636
+gforcey: -2.6197484E-32
+gforcez: 8.011568E34
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.2950946E-30 0
+posx: 9.004306E-4
+posy: 8.5976566E-11
+posz: 2.0549173E-25
+quatx: 5.5311225E25
+quaty: 5.3091946E-16
+quatz: 5.532366E25
+quatw: 5.3118394E-16
+gforcex: -2.336823E-22
+gforcey: -3.3950876E-30
+gforcez: 1.2157056E36
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.2209312E-29 0
+posx: 3.1943872E-4
+posy: 4.73471E-11
+posz: 2.0552037E-25
+quatx: 5.610192E25
+quaty: 5.2901787E-16
+quatz: 5.61023E25
+quatw: 5.290201E-16
+gforcex: -4.776776E-19
+gforcey: -1.2182218E-30
+gforcez: 1.2150939E36
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.810168E-29 0
+posx: 1.082013E-4
+posy: 1.5608282E-11
+posz: 2.055204E-25
+quatx: 5.6231625E25
+quaty: 5.287424E-16
+quatz: 5.623177E25
+quatw: 5.287415E-16
+gforcex: -2.1266874E-21
+gforcey: -3.1895022E-29
+gforcez: 5.2535656E33
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.0958414E-28 0
+posx: 5.9202597E-5
+posy: 5.5235994E-12
+posz: 2.055204E-25
+quatx: 5.6219814E25
+quaty: 5.2874534E-16
+quatz: 5.6220004E25
+quatw: 5.287447E-16
+gforcex: -4.6795667E-35
+gforcey: 4.65665E-23
+gforcez: 1.5386119E26
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.357261E-28 0
+posx: 2.1409316E-5
+posy: 1.7849288E-12
+posz: 2.055204E-25
+quatx: 5.621981E25
+quaty: 5.2874534E-16
+quatz: 5.6220004E25
+quatw: 5.287447E-16
+gforcex: -3.326951E21
+gforcey: 3.0619716E-20
+gforcez: 2.36821114E15
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.5707854E-27 0
+posx: 7.114441E-6
+posy: 6.3930247E-13
+posz: 2.055204E-25
+quatx: 5.621981E25
+quaty: 5.287454E-16
+quatz: 5.622001E25
+quatw: 5.2874465E-16
+gforcex: -6.0078035E-15
+gforcey: 3.468313E-17
+gforcez: 0.028151609
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.928622E-27 0
+posx: 2.5291345E-6
+posy: 2.1008198E-13
+posz: 2.055204E-25
+quatx: 5.62198E25
+quaty: 5.287454E-16
+quatz: 5.6220013E25
+quatw: 5.2874465E-16
+gforcex: 0.016881457
+gforcey: 4.4550647E-15
+gforcez: -1.3528712E-21
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.4312568E-26 0
+posx: 1.4199233E-6
+posy: 7.32405E-14
+posz: 2.0552039E-25
+quatx: 5.621979E25
+quaty: 5.2874534E-16
+quatz: 5.6220013E25
+quatw: 5.287447E-16
+gforcex: 5.1984573E-25
+gforcey: 4.6057654E-15
+gforcez: -2.5158478E-26
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.369385E-26 0
+posx: 4.6445538E-7
+posy: 2.4562099E-14
+posz: 2.0552039E-25
+quatx: 5.6219786E25
+quaty: 5.2874534E-16
+quatz: 5.6220013E25
+quatw: 5.287447E-16
+gforcex: -3.822831E-27
+gforcey: 4.6121977E-15
+gforcez: -1.2428441E-29
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.0432357E-25 0
+posx: 1.6775616E-7
+posy: 8.30164E-15
+posz: 2.0552039E-25
+quatx: 5.621979E25
+quaty: 5.2874534E-16
+quatz: 5.622001E25
+quatw: 5.287447E-16
+gforcex: -1.6034747E-38
+gforcey: 4.598102E-15
+gforcez: -1.9862753E-32
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 6.4530607E-25 0
+posx: 9.347889E-8
+posy: 2.8547096E-15
+posz: 2.0552039E-25
+quatx: 5.621979E25
+quaty: 5.2874534E-16
+quatz: 5.6220013E25
+quatw: 5.287447E-16
+gforcex: 5.0900724E-14
+gforcey: 4.60467E-15
+gforcez: -1.7895019E-35
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.8942854E-24 0
+posx: 3.056644E-8
+posy: 9.277724E-16
+posz: 2.0552039E-25
+quatx: 5.6219796E25
+quaty: 5.2874534E-16
+quatz: 5.622001E25
+quatw: 5.287447E-16
+gforcex: 8.574888E-25
+gforcey: 4.6003283E-15
+gforcez: -2.5237708E-38
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 5.732558E-24 0
+posx: 1.103084E-8
+posy: 3.285454E-16
+posz: 2.055204E-25
+quatx: 5.62198E25
+quaty: 5.2874534E-16
+quatz: 5.622001E25
+quatw: 5.287447E-16
+gforcex: 1.5281945E-24
+gforcey: 4.5916724E-15
+gforcez: -1.3023699E-17
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.6769354E-23 0
+posx: 3.6056E-9
+posy: 1.0631983E-16
+posz: 2.055204E-25
+quatx: 5.62198E25
+quaty: 5.2874534E-16
+quatz: 5.622001E25
+quatw: 5.287447E-16
+gforcex: 7.716393E28
+gforcey: 4.603536E-15
+gforcez: 2579.5022
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.7787755E-23 0
+posx: 1.294846E-9
+posy: 3.7463374E-17
+posz: 2.055204E-25
+quatx: 5.6219805E25
+quaty: 5.2874534E-16
+quatz: 5.622001E25
+quatw: 5.287447E-16
+gforcex: 6.2105793E10
+gforcey: 4.599193E-15
+gforcez: 4285.504
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 8.4721964E-23 0
+posx: 7.1987166E-10
+posy: 1.23656065E-17
+posz: 2.055204E-25
+quatx: 5.621981E25
+quaty: 5.287453E-16
+quatz: 5.622E25
+quatw: 5.2874475E-16
+gforcex: -8.4685525E-13
+gforcey: 4.586218E-15
+gforcez: 833.2573
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.4777096E-22 0
+posx: 2.3249808E-10
+posy: 4.2089195E-18
+posz: 2.055204E-25
+quatx: 5.6219814E25
+quaty: 5.287453E-16
+quatz: 5.6219994E25
+quatw: 5.2874475E-16
+gforcex: 8.723876E-25
+gforcey: 4.613359E-15
+gforcez: -2.180916E-13
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.5244584E-22 0
+posx: 8.419958E-11
+posy: 1.4240281E-18
+posz: 2.055204E-25
+quatx: 5.6219814E25
+quaty: 5.2874523E-16
+quatz: 5.6219985E25
+quatw: 5.287448E-16
+gforcex: 1.5601864E-23
+gforcey: 4.61228E-15
+gforcez: 2.9528062E23
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 7.1623905E-22 0
+posx: 2.7585116E-11
+posy: 4.641019E-19
+posz: 2.055204E-25
+quatx: 5.621982E25
+quaty: 5.2874523E-16
+quatz: 5.6219975E25
+quatw: 5.287448E-16
+gforcex: 1.5933058E-23
+gforcey: 4.590582E-15
+gforcez: 6.8520155E13
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.2598489E-21 0
+posx: 9.7754764E-12
+posy: 9.7276466E-20
+posz: 2.055204E-25
+quatx: 5.621983E25
+quaty: 5.2874523E-16
+quatz: 5.6219975E25
+quatw: 5.287448E-16
+gforcex: 9.422199E-24
+gforcey: 4.60469E-15
+gforcez: 1.25882767E10
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.175016E-21 0
+posx: 3.2557477E-12
+posy: 3.3052848E-20
+posz: 2.055204E-25
+quatx: 5.6219832E25
+quaty: 5.287452E-16
+quatz: 5.6219967E25
+quatw: 5.2874486E-16
+gforcex: 5.4823127E-24
+gforcey: 4.59601E-15
+gforcez: 3.0501138E7
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.65947E-21 0
+posx: 1.7640913E-12
+posy: 1.1147145E-20
+posz: 2.0552042E-25
+quatx: 5.621984E25
+quaty: 5.287452E-16
+quatz: 5.621996E25
+quatw: 5.2874486E-16
+gforcex: 2.5153742E-13
+gforcey: 4.585199E-15
+gforcez: -21.869291
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 6.3592123E-21 0
+posx: 6.293042E-13
+posy: 3.6181235E-21
+posz: 2.0552042E-25
+quatx: 5.6219847E25
+quaty: 5.287451E-16
+quatz: 5.6219952E25
+quatw: 5.287449E-16
+gforcex: 7.627611E-13
+gforcey: 4.60356E-15
+gforcez: -0.018166862
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.8676376E-20 0
+posx: 2.0748323E-13
+posy: 1.2598696E-21
+posz: 2.0552042E-25
+quatx: 5.6219855E25
+quaty: 5.287451E-16
+quatz: 5.621995E25
+quatw: 5.287449E-16
+gforcex: 2.6347351E-13
+gforcey: 4.6111364E-15
+gforcez: -4.8931764E-5
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.190352E-20 0
+posx: 7.185299E-14
+posy: 2.5432431E-22
+posz: 2.0552042E-25
+quatx: 5.6219865E25
+quaty: 5.287451E-16
+quatz: 5.621994E25
+quatw: 5.287449E-16
+gforcex: 5.043258E-14
+gforcey: 4.586261E-15
+gforcez: -2.4942286E-8
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 5.3591804E-20 0
+posx: 2.4159031E-14
+posy: 8.5481504E-23
+posz: 2.0552042E-25
+quatx: 5.621987E25
+quaty: 5.287451E-16
+quatz: 5.6219934E25
+quatw: 5.287449E-16
+gforcex: 2.6022492E-23
+gforcey: 4.6013875E-15
+gforcez: -1.6695035E-9
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 9.638344E-20 0
+posx: 8.056674E-15
+posy: 2.7148755E-23
+posz: 2.0552042E-25
+quatx: 5.6219884E25
+quaty: 5.287451E-16
+quatz: 5.621993E25
+quatw: 5.287449E-16
+gforcex: 2.390815E-22
+gforcey: 4.6165625E-15
+gforcez: -1.4305225E-12
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.7789513E-19 0
+posx: 2.7831692E-15
+posy: 1.9321635E-24
+posz: 2.0552043E-25
+quatx: 5.6219884E25
+quaty: 5.2874507E-16
+quatz: 5.6219925E25
+quatw: 5.2874496E-16
+gforcex: 4.2405336E31
+gforcey: 4.585162E-15
+gforcez: -2.403295E-16
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.6859983E-19 0
+posx: 8.887424E-16
+posy: 2.0577475E-25
+posz: 2.0552043E-25
+quatx: 5.6219884E25
+quaty: 5.2874507E-16
+quatz: 5.621992E25
+quatw: 5.2874496E-16
+gforcex: 8.5669004E26
+gforcey: 4.6111694E-15
+gforcez: -3.6996134E-19
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 8.149626E-19 0
+posx: 1.9211648E-16
+posy: 1.430479E-26
+posz: 2.0552043E-25
+quatx: 5.6219897E25
+quaty: 5.2874507E-16
+quatz: 5.6219915E25
+quatw: 5.2874496E-16
+gforcex: 6.260392E20
+gforcey: 4.602512E-15
+gforcez: -5.0452112E-21
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.4542003E-18 0
+posx: 6.4647196E-17
+posy: 9.907336E-28
+posz: 2.0552043E-25
+quatx: 5.62199E25
+quaty: 5.2874507E-16
+quatz: 5.6219915E25
+quatw: 5.2874496E-16
+gforcex: 3.84376085E12
+gforcey: 4.5797077E-15
+gforcez: -6.659784E-23
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.5543484E-18 0
+posx: 2.2199437E-17
+posy: 1.0616424E-28
+posz: 2.0552043E-25
+quatx: 5.6219907E25
+quaty: 5.2874507E-16
+quatz: 5.621991E25
+quatw: 5.2874496E-16
+gforcex: 3.8387784E-6
+gforcey: 4.611158E-15
+gforcez: -3.850806E-23
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 6.83683E-18 0
+posx: 7.18379E-18
+posy: 7.4098635E-30
+posz: 2.0552043E-25
+quatx: 5.621991E25
+quaty: 5.2874507E-16
+quatz: 5.6219915E25
+quatw: 5.2874496E-16
+gforcex: 0.0400835
+gforcey: 4.595937E-15
+gforcez: -1.126624E-26
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.2247017E-17 0
+posx: 2.5501213E-18
+posy: 5.1080966E-31
+posz: 2.0552043E-25
+quatx: 5.620821E25
+quaty: 5.2874777E-16
+quatz: 5.6208216E25
+quatw: 5.2874777E-16
+gforcex: 45.20588
+gforcey: 1.2963222E-14
+gforcez: -9.850153E-14
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.1665495E-17 0
+posx: 8.243564E-19
+posy: 5.485925E-32
+posz: 2.0552043E-25
+quatx: 5.5783268E25
+quaty: 5.298341E-16
+quatz: 5.5783268E25
+quatw: 5.29834E-16
+gforcex: 5.8114903E-5
+gforcey: 2.8492147E-8
+gforcez: -2.0166305E-36
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.770831E-17 0
+posx: 2.878231E-19
+posy: 3.7646382E-33
+posz: 2.0552043E-25
+quatx: 5.4567268E25
+quaty: 5.3307717E-16
+quatz: 5.4567262E25
+quatw: 5.3307717E-16
+gforcex: 7.0115144E-22
+gforcey: 5.1148295
+gforcez: 4.323225E-5
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 6.417131E-17 0
+posx: 9.4977124E-20
+posy: 2.5634301E-34
+posz: 2.0552043E-25
+quatx: 3.2004893E25
+quaty: 8.5061214E-16
+quatz: 3.200489E25
+quatw: 8.506121E-16
+gforcex: 7.519241E27
+gforcey: 5.8569256E7
+gforcez: 5.5341438E13
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.8401756E-16 0
+posx: 3.1779336E-20
+posy: 1.7292994E-35
+posz: 2.0552043E-25
+quatx: 1.8135791E25
+quaty: 8.5820065E-16
+quatz: 1.8135788E25
+quatw: 8.582006E-16
+gforcex: 4.9264074E20
+gforcey: 1.70913681E12
+gforcez: 3.2430054E25
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.232557E-16 0
+posx: 6.3974855E-21
+posy: 1.1609872E-36
+posz: 2.0552043E-25
+quatx: 1.0364444E25
+quaty: 8.6809426E-16
+quatz: 1.0364443E25
+quatw: 8.6809426E-16
+gforcex: -5.21443E-25
+gforcey: 7.1315013E13
+gforcez: 6.349353E28
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 5.568206E-16 0
+posx: 2.2101626E-21
+posy: 1.2731354E-37
+posz: 2.0552043E-25
+quatx: 3.7478233E24
+quaty: 8.79218E-16
+quatz: 3.7478233E24
+quatw: 8.7921803E-16
+gforcex: -1.1144719E-26
+gforcey: 5.8893649E15
+gforcez: 7.3489205E23
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 9.345321E-16 0
+posx: 7.27228E-22
+posy: 5.404927E-39
+posz: 2.0552043E-25
+quatx: 2.0874429E24
+quaty: 1.5180511E-15
+quatz: 2.0874428E24
+quatw: 1.5180511E-15
+gforcex: -3.4589153E-34
+gforcey: 2.17744974E18
+gforcez: 1.28078211E12
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.6438734E-15 0
+posx: 2.3829645E-22
+posy: -6.656019E37
+posz: 2.0552043E-25
+quatx: 7.221625E23
+quaty: 1.5419036E-15
+quatz: 7.2216236E23
+quatw: 1.5419035E-15
+gforcex: 3.9708836E27
+gforcey: 1.4532833E21
+gforcez: 1.273468E-4
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.8021737E-15 0
+posx: 4.840172E-23
+posy: -4.4482554E36
+posz: 2.0552043E-25
+quatx: 2.5066747E23
+quaty: 1.5660415E-15
+quatz: 2.5066744E23
+quatw: 1.5660415E-15
+gforcex: -5.9165817E-5
+gforcey: 9.772124E23
+gforcez: -1.5064006E-34
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 8.1650495E-15 0
+posx: 9.680294E-24
+posy: -2.9622851E35
+posz: 2.0552043E-25
+quatx: 1.3759455E23
+quaty: 2.6545902E-15
+quatz: 1.3759455E23
+quatw: 2.6545902E-15
+gforcex: -4.735017E-19
+gforcey: 4.4043843E25
+gforcez: 9.142614E31
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.3828991E-14 0
+posx: 6.4455404E-25
+posy: -3.3170972E34
+posz: 2.0552043E-25
+quatx: 4.8157554E22
+quaty: 2.7055486E-15
+quatz: 4.815755E22
+quatw: 2.7055486E-15
+gforcex: -6.3798655E-21
+gforcey: 1.9250999E27
+gforcez: 4.1065616E29
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.4748858E-14 0
+posx: 4.2747494E-26
+posy: -2.2277468E33
+posz: 2.0552043E-25
+quatx: 1.6292726E22
+quaty: 4.4593434E-15
+quatz: 1.6292728E22
+quatw: 4.459343E-15
+gforcex: -2.448227E-22
+gforcey: 5.0916263E28
+gforcez: 4.988154E27
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.3687313E-14 0
+posx: 2.812334E-27
+posy: -1.4894505E32
+posz: 2.0552043E-25
+quatx: 5.523127E21
+quaty: 4.56452E-15
+quatz: 5.523126E21
+quatw: 4.5645204E-15
+gforcex: -2.1292184E7
+gforcey: 2.1709195E30
+gforcez: -2.8544982E-23
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.175871E-13 0
+posx: 1.8428128E-28
+posy: -1.6883198E31
+posz: 2.0552043E-25
+quatx: 1.9005257E21
+quaty: 4.6707904E-15
+quatz: 1.9005255E21
+quatw: 4.6707895E-15
+gforcex: 6.616957E23
+gforcey: 9.511873E31
+gforcez: 2.1611915E-4
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.0769106E-13 0
+posx: 1.2030311E-29
+posy: -1.13880555E30
+posz: 2.0552043E-25
+quatx: 6.171518E20
+quaty: 7.446866E-15
+quatz: 6.171517E20
+quatw: 7.446865E-15
+gforcex: 7.0024165E23
+gforcey: 4.2203586E33
+gforcez: 3.8017967E-4
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.6806934E-13 0
+posx: 5.0478807E-31
+posy: -1.2966557E29
+posz: 2.0552043E-25
+quatx: 7.203568E19
+quaty: 7.665789E-15
+quatz: 7.2035674E19
+quatw: 7.66579E-15
+gforcex: 6.073646E24
+gforcey: 1.822922E35
+gforcez: 0.0018796432
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 6.412444E-13 0
+posx: 3.323638E-32
+posy: -8.7934696E27
+posz: 2.0552043E-25
+quatx: 8.3041308E18
+quaty: 1.28831145E-14
+quatz: 8.3041292E18
+quatw: 1.28831145E-14
+gforcex: 1.57307884E10
+gforcey: 9.399086E-39
+gforcez: -7.570558E-22
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.0921335E-12 0
+posx: 2.1727904E-33
+posy: -1.0038781E27
+posz: 2.0552043E-25
+quatx: 9.4309923E17
+quaty: 1.3110657E-14
+quatz: 9.4309909E17
+quatw: 1.3110656E-14
+gforcex: -3.735995E-21
+gforcey: 8.983315E-38
+gforcez: 1.4960879E32
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.8112765E-12 0
+posx: 8.463603E-35
+posy: -1.1366391E26
+posz: 2.0552043E-25
+quatx: 6.3123237E16
+quaty: 1.3342668E-14
+quatz: 6.3123225E16
+quatw: 1.3342668E-14
+gforcex: -3.1894614E-20
+gforcey: 4.9718446E-37
+gforcez: 4.1560634E33
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.2418963E-12 0
+posx: 3.2878995E-36
+posy: -7.802247E24
+posz: 2.0552043E-25
+quatx: 4.16385161E15
+quaty: 2.2943488E-14
+quatz: 4.16385134E15
+quatw: 2.2943488E-14
+gforcex: -1.2833844E-21
+gforcey: 4.353574E-36
+gforcez: 8.95183E31
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 5.7190485E-12 0
+posx: 1.3365522E-37
+posy: 1.1415806E21
+posz: 2.0552043E-25
+quatx: 2.72019455E14
+quaty: 2.3424849E-14
+quatz: 2.72019405E14
+quatw: 2.3424847E-14
+gforcex: -2.8255108E-23
+gforcey: 6.236605E-35
+gforcez: 6.7627824E29
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.549721E-11 0
+posx: 5.168247E-39
+posy: 1.5162668E19
+posz: 2.0552043E-25
+quatx: 1.1378094E13
+quaty: 3.9392575E-14
+quatz: 1.13780908E13
+quatw: 3.939257E-14
+gforcex: -5.7325287E-24
+gforcey: 5.5530656E-34
+gforcez: 2.4506598E29
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.697686E-11 0
+posx: -2.2199678E37
+posy: 1.19767688E17
+posz: 2.0552043E-25
+quatx: 7.3749463E11
+quaty: 4.0389804E-14
+quatz: 7.374945E11
+quatw: 4.03898E-14
+gforcex: -4.8852723E-27
+gforcey: 8.13415E-33
+gforcez: 1.8350995E27
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.7782472E-11 0
+posx: -8.915071E35
+posy: 1.56996543E15
+posz: 2.0552043E-25
+quatx: 2.86725325E10
+quaty: 6.591622E-14
+quatz: 2.86725325E10
+quatw: 6.591621E-14
+gforcex: -1.2517485E-29
+gforcey: 7.3597754E-32
+gforcez: 4.040469E25
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 8.311676E-11 0
+posx: -3.3925385E34
+posy: 2.01166957E13
+posz: 2.0552043E-25
+quatx: 1.06444474E9
+quaty: 6.791256E-14
+quatz: 1.06444467E9
+quatw: 6.791255E-14
+gforcex: -9.256517E-32
+gforcey: 1.0853105E-30
+gforcez: 1.58955E24
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.4126417E-10 0
+posx: -1.24219716E33
+posy: 2.61542117E11
+posz: 2.0552043E-25
+quatx: 4.2844356E7
+quaty: 6.994192E-14
+quatz: 4.2844352E7
+quatw: 6.9941916E-14
+gforcex: -9.792395E-36
+gforcey: 1.5958606E-29
+gforcez: 2.3038521E21
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.3249917E-10 0
+posx: -3.0109463E31
+posy: 5.9397258E9
+posz: 2.0552043E-25
+quatx: 971330.75
+quaty: 1.11938596E-13
+quatz: 971330.75
+quatw: 1.1193859E-13
+gforcex: 3.7984357E37
+gforcey: 1.4669759E-28
+gforcez: 1.18342567E18
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.1420772E-10 0
+posx: -1.11114495E30
+posy: 7.9204368E7
+posz: 2.0552043E-25
+quatx: 36650.445
+quaty: 1.1418094E-13
+quatz: 36650.438
+quatw: 1.1418092E-13
+gforcex: 1.23822995E33
+gforcey: 2.1779504E-27
+gforcez: 5.9909928E14
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 7.2555234E-10 0
+posx: -2.6133463E28
+posy: 1789843.0
+posz: 2.0552043E-25
+quatx: 857.16534
+quaty: 1.9800425E-13
+quatz: 857.1652
+quatw: 1.9800425E-13
+gforcex: 8.6892364E27
+gforcey: 3.2124527E-26
+gforcez: 1.06884432E11
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.2439714E-9 0
+posx: -5.8068834E26
+posy: 40972.273
+posz: 2.0552043E-25
+quatx: 19.4134
+quaty: 2.0188803E-13
+quatz: 19.413397
+quatw: 2.0188801E-13
+gforcex: -3.4470253E17
+gforcey: 4.6347595E-25
+gforcez: 3624729.5
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.0719662E-9 0
+posx: -1.3739792E25
+posy: 1546.9618
+posz: 2.0552043E-25
+quatx: 0.43309537
+quaty: 3.4391232E-13
+quatz: 0.43309537
+quatw: 3.439123E-13
+gforcex: -303.57898
+gforcey: 4.223351E-24
+gforcez: -1.0829594E-6
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.514076E-9 0
+posx: 3.9314824E20
+posy: 34.992554
+posz: 2.0552043E-25
+quatx: 0.009712359
+quaty: 3.514018E-13
+quatz: 0.009712359
+quatw: 3.514018E-13
+gforcex: -1.7896245E-22
+gforcey: 6.0543364E-23
+gforcez: -2.4872655E-20
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 6.178019E-9 0
+posx: 2.0326242E17
+posy: 1.4038746
+posz: 2.0552043E-25
+quatx: 1.2723598E-4
+quaty: 3.58617E-13
+quatz: 1.2723598E-4
+quatw: 3.5861697E-13
+gforcex: -1.3290737E-6
+gforcey: 5.4064043E-22
+gforcez: 2.5729166E38
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 6.4292767E-9 0
+posx: 1.03067454E14
+posy: 0.05410427
+posz: 2.0552043E-25
+quatx: 2.912852E-6
+quaty: 5.9625574E-13
+quatz: 2.9128516E-6
+quatw: 5.9625574E-13
+gforcex: -5.643876E35
+gforcey: 4.745623E-21
+gforcez: -5.6253487E-12
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.1151355E-8 0
+posx: 3.03199109E10
+posy: 0.0034585062
+posz: 2.0552043E-25
+quatx: 3.8072333E-8
+quaty: 6.1027355E-13
+quatz: 3.807233E-8
+quatw: 6.102735E-13
+gforcex: -0.017681554
+gforcey: 2.4104353E-20
+gforcez: -4.579512E-7
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.8856808E-8 0
+posx: 8775231.0
+posy: 1.3793522E-4
+posz: 2.0552043E-25
+quatx: 4.7276716E-10
+quaty: 9.774649E-13
+quatz: 4.727671E-10
+quatw: 9.774646E-13
+gforcex: 5.7370068E26
+gforcey: 2.0149026E-19
+gforcez: -1.982746E-26
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.073073E-8 0
+posx: 2720.915
+posy: 9.331596E-6
+posz: 2.0552043E-25
+quatx: -3.3408388E-16
+quaty: 1.0027204E-12
+quatz: -3.3408385E-16
+quatw: 1.0027203E-12
+gforcex: -4.1103355E-34
+gforcey: 1.0660143E-18
+gforcez: -12.73606
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 5.3449867E-8 0
+posx: 0.8105471
+posy: 1.0032823E-6
+posz: 2.0552043E-25
+quatx: -3.4870642E-20
+quaty: 1.0260373E-12
+quatz: -3.4870632E-20
+quatw: 1.0260372E-12
+gforcex: -9.358881E-20
+gforcey: 5.4757193E-18
+gforcez: 3.65680497E18
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 5.5123127E-8 0
+posx: 2.3419564E-4
+posy: 1.1389459E-7
+posz: 2.0552043E-25
+quatx: -5.8899037E-24
+quaty: 1.6871627E-12
+quatz: -5.8899025E-24
+quatw: 1.6871626E-12
+gforcex: -4.104411E-10
+gforcey: 2.6580162E-17
+gforcez: 1.164683E34
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 9.5733995E-8 0
+posx: 1.14331E-7
+posy: 1.3387467E-8
+posz: 2.0552043E-25
+quatx: -1.0330628E-27
+quaty: 1.7068802E-12
+quatz: -1.0328406E-27
+quatw: 1.7068801E-12
+gforcex: -0.36212167
+gforcey: 8.166087E-17
+gforcez: -5.6911146E-36
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.6208219E-7 0
+posx: 1.6294609E-13
+posy: 5.236736E-10
+posz: 2.0552043E-25
+quatx: -1.7631562E-31
+quaty: 1.7249221E-12
+quatz: -1.7631562E-31
+quatw: 1.7249222E-12
+gforcex: 2.72054231E10
+gforcey: 1.4184876E-16
+gforcez: -1.1170604E-28
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.6779086E-7 0
+posx: 2.3579016E-20
+posy: 2.0552803E-11
+posz: 2.0552043E-25
+quatx: -4.8898705E-35
+quaty: 1.7412882E-12
+quatz: -4.88987E-35
+quatw: 1.7412882E-12
+gforcex: 1.3528241E15
+gforcey: 2.3254961E-16
+gforcez: -3.7864197E-21
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.7550183E-7 0
+posx: 2.1656356E-27
+posy: 7.9631907E-13
+posz: 2.0552043E-25
+quatx: -6.49452E-39
+quaty: 2.971963E-12
+quatz: -6.49452E-39
+quatw: 2.971963E-12
+gforcex: 4.0805326E19
+gforcey: 2.3695903E-16
+gforcez: -1.2694895E-13
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.8568996E-7 0
+posx: 1.8501274E-34
+posy: 5.230385E-14
+posz: 2.0552043E-25
+quatx: 2.9885194E35
+quaty: 2.9980512E-12
+quatz: 2.9885192E35
+quatw: 2.998051E-12
+gforcex: 3.5524155E24
+gforcey: 2.353994E-16
+gforcez: 9.311602E-7
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.6314733E-7 0
+posx: 3.2486385E31
+posy: 3.5022396E-15
+posz: 2.0552043E-25
+quatx: 2.715994E28
+quaty: 3.0208592E-12
+quatz: 2.7159933E28
+quatw: 3.0208587E-12
+gforcex: 1.6937916E29
+gforcey: 1.4310233E-16
+gforcez: 0.005667778
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.7231833E-7 0
+posx: 8.7890716E16
+posy: 4.1192014E-16
+posz: 2.0552043E-25
+quatx: 1.3865325E21
+quaty: 3.041347E-12
+quatz: 1.3862078E21
+quatw: 3.0413465E-12
+gforcex: 8.8776784E33
+gforcey: 8.335502E-17
+gforcez: 31.717787
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 8.2024076E-7 0
+posx: 0.0673068
+posy: 8.279701E-17
+posz: 2.0552043E-25
+quatx: 1.21710876E14
+quaty: 3.058014E-12
+quatz: 1.21710884E14
+quatw: 3.0580137E-12
+gforcex: NaN
+gforcey: 4.6876918E-17
+gforcez: 197459.67
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 8.3624946E-7 0
+posx: 9.157193E37
+posy: 2.6054836E-17
+posz: 2.0552043E-25
+quatx: 1.0990198E7
+quaty: 3.0718902E-12
+quatz: 1.0990197E7
+quatw: 3.07189E-12
+gforcex: -2.59648E-36
+gforcey: 1.556883E-17
+gforcez: 1.04281824E9
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.4190537E-6 0
+posx: -1.6639457E-27
+posy: 5.5773455E-18
+posz: 2.0552043E-25
+quatx: -1.1841989E-7
+quaty: 3.0824761E-12
+quatz: -1.1841987E-7
+quatw: 3.082476E-12
+gforcex: -3.3860406E-34
+gforcey: 5.3518242E-18
+gforcez: 2.12802955E12
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.4461244E-6 0
+posx: 1.556765E-19
+posy: 3.106722E-18
+posz: 2.0552043E-25
+quatx: -4.9542517E-21
+quaty: 3.0907852E-12
+quatz: -4.9542513E-21
+quatw: 3.0907854E-12
+gforcex: -2.5070653E-32
+gforcey: 1.0554286E-18
+gforcez: 4.09244885E15
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.470874E-6 0
+posx: 4.9063584E8
+posy: 1.7684381E-18
+posz: 2.0552043E-25
+quatx: 3.0528343E37
+quaty: 3.0963405E-12
+quatz: 3.0528335E37
+quatw: 3.0963405E-12
+gforcex: -1.1799698E-30
+gforcey: 2.0019996E-19
+gforcez: 1.69274048E18
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.420291E-6 0
+posx: 3.2819092E23
+posy: 1.7319918E-18
+posz: 2.0552043E-25
+quatx: -228.94041
+quaty: 5.1192765E-12
+quatz: -228.94038
+quatw: 5.119276E-12
+gforcex: -4.8968105E-29
+gforcey: 2.4029745E-20
+gforcez: 6.0886246E20
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.459888E-6 0
+posx: 5.6284464E-38
+posy: 1.7673467E-18
+posz: 2.0552043E-25
+quatx: -9.125545E-26
+quaty: 5.1204527E-12
+quatz: -9.1255436E-26
+quatw: 5.1204522E-12
+gforcex: -7.611629E-28
+gforcey: 2.8074841E-21
+gforcez: 5.6701237E21
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.4947979E-6 0
+posx: 3.0296874E-30
+posy: 3.1003916E-18
+posz: 2.0552043E-25
+quatx: -1.57203008E9
+quaty: 5.1182188E-12
+quatz: -1.5720297E9
+quatw: 5.118219E-12
+gforcex: -1.1410912E-26
+gforcey: 3.2116638E-22
+gforcez: 4.9806803E22
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.5245229E-6 0
+posx: 1.0469734E-22
+posy: 5.5508203E-18
+posz: 2.0552043E-25
+quatx: -1.470155E-39
+quaty: 3.0963166E-12
+quatz: -1.470151E-39
+quatw: 3.0963164E-12
+gforcex: -9.661347E-26
+gforcey: 3.618291E-23
+gforcez: 4.1594212E23
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.9676675E-6 0
+posx: 6.231568E-15
+posy: 1.606845E-17
+posz: 2.0552043E-25
+quatx: -3.31301E-22
+quaty: 3.0913434E-12
+quatz: -3.3130098E-22
+quatw: 3.0913434E-12
+gforcex: -3.0633397E-25
+gforcey: 2.4564488E-24
+gforcez: 1.18517E24
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.007248E-6 0
+posx: 4.1857135E-8
+posy: 8.091692E-17
+posz: 2.0552043E-25
+quatx: -2.1408935E-11
+quaty: 3.0852315E-12
+quatz: -2.1408935E-11
+quatw: 3.0852315E-12
+gforcex: -8.535934E-25
+gforcey: 1.659954E-25
+gforcez: 2.165662E24
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.036411E-6 0
+posx: 3.9941515E-4
+posy: 3.987083E-16
+posz: 2.0552043E-25
+quatx: -0.27715182
+quaty: 3.0779988E-12
+quatz: -0.27715173
+quatw: 3.0779986E-12
+gforcex: -1.4690316E-24
+gforcey: 1.8222915E-26
+gforcez: 3.7220264E24
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.056221E-6 0
+posx: 2.3244815
+posy: 2.0775495E-15
+posz: 2.0552043E-25
+quatx: 2.60089952E8
+quaty: 3.0696678E-12
+quatz: 2.6008992E8
+quatw: 3.0696676E-12
+gforcex: -1.4607167E-24
+gforcey: 1.2178733E-27
+gforcez: 3.730837E24
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.0667037E-6 0
+posx: 13774.644
+posy: 1.8175667E-14
+posz: 2.0552043E-25
+quatx: 8.0367332E12
+quaty: 3.0602617E-12
+quatz: 8.0367337E12
+quatw: 3.0602617E-12
+gforcex: -5.2054747E-25
+gforcey: 8.077284E-29
+gforcez: 2.1394891E24
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.067899E-6 0
+posx: 8.0516352E7
+posy: 1.614912E-13
+posz: 2.0552043E-25
+quatx: 2.36034515E17
+quaty: 3.0507933E-12
+quatz: 2.36034515E17
+quatw: 3.0507933E-12
+gforcex: -1.7471254E-25
+gforcey: 3.1245622E-30
+gforcez: 1.1768793E24
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.060888E-6 0
+posx: 7.7695681E11
+posy: 2.3528358E-12
+posz: 2.0552043E-25
+quatx: 2.3099713E21
+quaty: 3.0402861E-12
+quatz: 2.309971E21
+quatw: 3.040286E-12
+gforcex: -5.530933E-26
+gforcey: 2.1009864E-31
+gforcez: 4.1686846E23
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.0456935E-6 0
+posx: 4.34340191E15
+posy: 3.4845106E-11
+posz: 2.0552043E-25
+quatx: 2.3341571E25
+quaty: 3.0297427E-12
+quatz: 2.3341567E25
+quatw: 3.0297425E-12
+gforcex: -6.426112E-27
+gforcey: 1.4211536E-32
+gforcez: 8.0387965E22
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.0212917E-6 0
+posx: 2.6684017E19
+posy: 5.256626E-10
+posz: 2.0552043E-25
+quatx: 7.837965E28
+quaty: 3.019179E-12
+quatz: 7.8379634E28
+quatw: 3.019179E-12
+gforcex: -7.5314357E-28
+gforcey: 9.52911E-34
+gforcez: 1.6180285E22
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.9898264E-6 0
+posx: -7.8671674E24
+posy: 7.762187E-9
+posz: 2.0552043E-25
+quatx: 2.712497E32
+quaty: 3.0086155E-12
+quatz: 2.7124966E32
+quatw: 3.0086155E-12
+gforcex: -8.626125E-29
+gforcey: 6.4173554E-35
+gforcez: 1.9279091E21
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.950266E-6 0
+posx: -5.824833E26
+posy: 4.1220403E-8
+posz: 2.0552043E-25
+quatx: 2.9844762E35
+quaty: 2.998056E-12
+quatz: 2.984476E35
+quatw: 2.9980558E-12
+gforcex: -5.66691E-30
+gforcey: 4.3132223E-36
+gforcez: 1.2702934E20
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.5180877E-6 0
+posx: -4.50651E28
+posy: 2.0691385E-7
+posz: 2.0552043E-25
+quatx: 8.065732E36
+quaty: 2.9875152E-12
+quatz: 8.065732E36
+quatw: 2.987515E-12
+gforcex: -1.1717975E-30
+gforcey: 2.8186926E-37
+gforcez: 1.4703308E19
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.491303E-6 0
+posx: -5.572324E30
+posy: 1.0445984E-6
+posz: 2.0552043E-25
+quatx: 1.2216484E38
+quaty: 2.9786425E-12
+quatz: 1.2216483E38
+quatw: 2.9786425E-12
+gforcex: -8.662685E-21
+gforcey: 2.4507683E33
+gforcez: 4.2813187E27
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.4604867E-6 0
+posx: -4.4370278E32
+posy: 8.891424E-6
+posz: 2.0552043E-25
+quatx: -6.139536E-39
+quaty: 2.9725313E-12
+quatz: -6.139534E-39
+quatw: 2.9725309E-12
+gforcex: -3.8959513E-11
+gforcey: 6.1534354E26
+gforcez: 2.476708E35
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.4272629E-6 0
+posx: -3.4039043E34
+posy: 4.6903573E-5
+posz: 2.0552043E-25
+quatx: -2.5323857E-38
+quaty: 2.9691933E-12
+quatz: -2.532386E-38
+quatw: 2.9691928E-12
+gforcex: 0.012868434
+gforcey: 2.8625076E20
+gforcez: -2.3010438E-35
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.3906034E-6 0
+posx: -2.5444744E36
+posy: 2.3348987E-4
+posz: 2.0552043E-25
+quatx: -2.6142156E-38
+quaty: 2.9681132E-12
+quatz: -2.614216E-38
+quatw: 2.9681132E-12
+gforcex: 14.376003
+gforcey: 6.5960423E14
+gforcez: -1.2413261E-30
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.4586369E-6 0
+posx: -3.2306516E38
+posy: 0.0019485601
+posz: 2.0552043E-25
+quatx: -2.6127356E-38
+quaty: 2.968115E-12
+quatz: -2.6127356E-38
+quatw: 2.9681147E-12
+gforcex: -2.25033E-11
+gforcey: 9.8002482E11
+gforcez: 1.4375724E35
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.4376895E-6 0
+posx: 2.212334E-37
+posy: 0.0107284505
+posz: 2.0552043E-25
+quatx: -2.6127356E-38
+quaty: 2.968115E-12
+quatz: -2.6127356E-38
+quatw: 2.9681147E-12
+gforcex: -7.4119207E-28
+gforcey: 4.3372913E9
+gforcez: 1.626381E22
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.4155652E-6 0
+posx: 2.794622E-35
+posy: 0.09098865
+posz: 2.0552043E-25
+quatx: -2.6127356E-38
+quaty: 2.968115E-12
+quatz: -2.6127356E-38
+quatw: 2.9681147E-12
+gforcex: 3.458762E28
+gforcey: 3.3225892E7
+gforcez: 0.08740022
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 8.3784363E-7 0
+posx: 2.2155964E-33
+posy: 0.45836154
+posz: 2.0552043E-25
+quatx: -2.6127358E-38
+quaty: 2.968115E-12
+quatz: -2.612736E-38
+quatw: 2.9681147E-12
+gforcex: -2.4154778E-10
+gforcey: 249602.47
+gforcez: -1.5218924E-38
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 8.257752E-7 0
+posx: 1.6903736E-31
+posy: 3.8277647
+posz: 2.0552043E-25
+quatx: -2.6127358E-38
+quaty: 2.968115E-12
+quatz: -2.612736E-38
+quatw: 2.9681147E-12
+gforcex: -2.2153391E-21
+gforcey: 89737.27
+gforcez: 4.02279E25
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 8.135448E-7 0
+posx: 2.1311081E-29
+posy: 20.625053
+posz: 2.0552043E-25
+quatx: -2.6127358E-38
+quaty: 2.968115E-12
+quatz: -2.612736E-38
+quatw: 2.9681147E-12
+gforcex: -1.8659159E-16
+gforcey: 89876.15
+gforcez: 2.3112678E33
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.7129453E-7 0
+posx: 1.57891945E-27
+posy: 106.375595
+posz: 2.0552043E-25
+quatx: -2.6127358E-38
+quaty: 2.968115E-12
+quatz: -2.612736E-38
+quatw: 2.9681147E-12
+gforcex: 4.65129221E14
+gforcey: 89877.99
+gforcez: -1.270815E-17
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.6489163E-7 0
+posx: 1.2590854E-25
+posy: 889.37823
+posz: 2.0552043E-25
+quatx: -2.6127358E-38
+quaty: 2.968115E-12
+quatz: -2.612736E-38
+quatw: 2.9681147E-12
+gforcex: 2.33648243E11
+gforcey: 89877.71
+gforcez: -5.052506E-23
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 4.582761E-7 0
+posx: 9.805431E-24
+posy: 4543.329
+posz: 2.0552043E-25
+quatx: -2.6127358E-38
+quaty: 2.968115E-12
+quatz: -2.612736E-38
+quatw: 2.9681147E-12
+gforcex: -736.668
+gforcey: 89797.266
+gforcez: -7.0070345E-29
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.8394314E-7 0
+posx: 1.4541004E-22
+posy: 24280.186
+posz: 2.0552043E-25
+quatx: -2.6127358E-38
+quaty: 2.968115E-12
+quatz: -2.612736E-38
+quatw: 2.9681147E-12
+gforcex: -4.983246E-15
+gforcey: 89916.45
+gforcez: 2.9961352E35
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.7717533E-7 0
+posx: 1.2740828E-21
+posy: 203987.36
+posz: 2.0552043E-25
+quatx: -2.6127358E-38
+quaty: 2.968115E-12
+quatz: -2.612736E-38
+quatw: 2.9681147E-12
+gforcex: -1.647671E-25
+gforcey: 89877.336
+gforcez: 6.745395E23
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.7026294E-7 0
+posx: 1.10954316E-20
+posy: 1011681.75
+posz: 2.0552043E-25
+quatx: -2.6127358E-38
+quaty: 2.968115E-12
+quatz: -2.612736E-38
+quatw: 2.9681147E-12
+gforcex: -0.00615312
+gforcey: 89836.5
+gforcez: -2.1676885E-31
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.6702856E-7 0
+posx: 9.598622E-20
+posy: 8437424.0
+posz: 2.0552043E-25
+quatx: -2.6127358E-38
+quaty: 2.968115E-12
+quatz: -2.612736E-38
+quatw: 2.9681147E-12
+gforcex: -204945.38
+gforcey: 89936.94
+gforcez: -7.2289675E-24
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.6349833E-7 0
+posx: 8.258145E-19
+posy: 4.6287592E7
+posz: 2.0552043E-25
+quatx: -2.6127358E-38
+quaty: 2.968115E-12
+quatz: -2.612736E-38
+quatw: 2.9681147E-12
+gforcex: -8.8508654E10
+gforcey: 89797.125
+gforcez: -2.0727262E-19
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 9.766248E-8 0
+posx: 7.190049E-18
+posy: 2.35096048E8
+posz: 2.0552043E-25
+quatx: -2.6127356E-38
+quaty: 2.968115E-12
+quatz: -2.6127356E-38
+quatw: 2.9681147E-12
+gforcex: -2.25951465E16
+gforcey: 89756.15
+gforcez: -3.5254233E-15
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 9.589722E-8 0
+posx: 6.471413E-17
+posy: 1.95961318E9
+posz: 2.0552043E-25
+quatx: -2.6127356E-38
+quaty: 2.968115E-12
+quatz: -2.6127356E-38
+quatw: 2.9681147E-12
+gforcex: -6.4852165E20
+gforcey: 89816.875
+gforcez: -1.2398108E-11
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 9.411485E-8 0
+posx: 5.7539695E-16
+posy: 1.02704148E10
+posz: 2.0552043E-25
+quatx: -2.6127356E-38
+quaty: 2.968115E-12
+quatz: -2.6127356E-38
+quatw: 2.9681147E-12
+gforcex: 1.3300172E25
+gforcey: 89836.46
+gforcez: -1.635963E-9
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 5.5023364E-8 0
+posx: 5.0461094E-15
+posy: 5.3658374E10
+posz: 2.0552043E-25
+quatx: -2.6127356E-38
+quaty: 2.968115E-12
+quatz: -2.6127356E-38
+quatw: 2.9681147E-12
+gforcex: 1.7871759E27
+gforcey: 89817.37
+gforcez: -5.6163417E-6
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 5.414954E-8 0
+posx: 4.393096E-14
+posy: 4.48270991E11
+posz: 2.0552043E-25
+quatx: -2.5761552E-38
+quaty: 2.9686505E-12
+quatz: -2.5761552E-38
+quatw: 2.9686503E-12
+gforcex: -2.2414765E-6
+gforcey: 125.97453
+gforcez: -9.420623E-36
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 5.3258727E-8 0
+posx: 6.266675E-13
+posy: 2.18951962E12
+posz: 2.0552043E-25
+quatx: -6.555781E-39
+quaty: 2.971451E-12
+quatz: -6.55578E-39
+quatw: 2.9714508E-12
+gforcex: -18663.133
+gforcey: 8.046608E-11
+gforcez: -1.0367773E-27
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.1412686E-8 0
+posx: 5.4969696E-12
+posy: 1.18403461E13
+posz: 2.0552043E-25
+quatx: 2.0113989E38
+quaty: 2.977548E-12
+quatz: 2.0113987E38
+quatw: 2.9775475E-12
+gforcex: 5.720663E36
+gforcey: 1.339994E-22
+gforcez: 323410.38
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.0530114E-8 0
+posx: 4.7880148E-11
+posy: 5.9552913E13
+posz: 2.0552043E-25
+quatx: 1.3493711E37
+quaty: 2.9864115E-12
+quatz: 1.349371E37
+quatw: 2.9864112E-12
+gforcex: -9.9122665E-26
+gforcey: 1.441169E31
+gforcez: 1.1741E24
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.9247855E-8 0
+posx: 4.1463166E-10
+posy: 2.90240602E14
+posz: 2.0552043E-25
+quatx: 3.0468612E35
+quaty: 2.99698E-12
+quatz: 3.0468608E35
+quatw: 2.9969796E-12
+gforcex: -2.1433344E-19
+gforcey: 2491.4353
+gforcez: 1.0665746E29
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.8811184E-8 0
+posx: 3.5726622E-9
+posy: 1.53011149E15
+posz: 2.0552043E-25
+quatx: 4.775498E32
+quaty: 3.007523E-12
+quatz: 4.775498E32
+quatw: 3.0075228E-12
+gforcex: -7.536068E-36
+gforcey: -1.9305808E-16
+gforcez: 8.5819744E10
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.8374937E-8 0
+posx: 3.1458434E-8
+posy: 4.43892601E15
+posz: 2.0552043E-25
+quatx: 4.098782E29
+quaty: 3.0174934E-12
+quatz: 4.098783E29
+quatw: 3.0174934E-12
+gforcex: 4.7901184E10
+gforcey: 2.3795804E29
+gforcez: -5.9100426E-24
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.11855645E-8 0
+posx: 2.8452158E-7
+posy: 2.2969163E16
+posz: 2.0552043E-25
+quatx: 3.5040428E26
+quaty: 3.026395E-12
+quatz: 3.5040417E26
+quatw: 3.0263949E-12
+gforcex: -2.5969785E25
+gforcey: -2.3444798E-20
+gforcez: -5.965576E-5
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.0978518E-8 0
+posx: 2.52918E-6
+posy: 6.7061783E16
+posz: 2.0552043E-25
+quatx: 3.029952E23
+quaty: 3.0347187E-12
+quatz: 3.0299512E23
+quatw: 3.0347187E-12
+gforcex: -28.113464
+gforcey: 1.86622651E15
+gforcez: -7.634832E-30
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.077399E-8 0
+posx: 3.539844E-5
+posy: 2.06826143E17
+posz: 2.0552043E-25
+quatx: 4.716223E20
+quaty: 3.0424766E-12
+quatz: 4.7162223E20
+quatw: 3.0424766E-12
+gforcex: -268354.72
+gforcey: -1.2950843E-15
+gforcez: -8.9658456E-27
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 6.3940453E-9 0
+posx: 3.1430018E-4
+posy: 5.75515172E17
+posz: 2.0552043E-25
+quatx: 7.0197866E17
+quaty: 3.0491705E-12
+quatz: 7.0197866E17
+quatw: 3.0491705E-12
+gforcex: -3.5928922E-5
+gforcey: -2.2478002E28
+gforcez: -1.509043E-34
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 6.297357E-9 0
+posx: 0.002767462
+posy: 1.78535757E18
+posz: 2.0552043E-25
+quatx: 1.03890293E15
+quaty: 3.0558145E-12
+quatz: 1.03890286E15
+quatw: 3.0558143E-12
+gforcex: -1934.2502
+gforcey: -4.1905896E-28
+gforcez: -1.0334787E-28
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 6.2030105E-9 0
+posx: 0.024116663
+posy: 5.0223866E18
+posz: 2.0552043E-25
+quatx: 1.64331219E12
+quaty: 3.061901E-12
+quatz: 1.64331219E12
+quatw: 3.0619008E-12
+gforcex: 7.922629E-32
+gforcey: 1.782402E7
+gforcez: -8.9122833E14
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.6084478E-9 0
+posx: 0.20863402
+posy: 8.8349751E18
+posz: 2.0552043E-25
+quatx: 3.99877043E9
+quaty: 3.0674371E-12
+quatz: 3.99877043E9
+quatw: 3.067437E-12
+gforcex: -1.8891747E31
+gforcey: 3.5666994E22
+gforcez: -3.1015725
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.5635594E-9 0
+posx: 1.7943913
+posy: 2.6481654E19
+posz: 2.0552043E-25
+quatx: 6452298.0
+quaty: 3.0719268E-12
+quatz: 6452296.5
+quatw: 3.0719268E-12
+gforcex: 5.211346E31
+gforcey: 1.5915605E36
+gforcez: -60.98643
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 3.5203414E-9 0
+posx: 15.355072
+posy: 4.5848953E19
+posz: 2.0552043E-25
+quatx: -12.511322
+quaty: 3.0763714E-12
+quatz: -12.511319
+quatw: 3.0763708E-12
+gforcex: 4.72605585E14
+gforcey: -4.5685377E-34
+gforcez: -1.3000369E-17
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.1680513E-9 0
+posx: 134.15039
+posy: 7.681887E19
+posz: 2.0552043E-25
+quatx: -8.227678E-5
+quaty: 3.0807767E-12
+quatz: -8.227678E-5
+quatw: 3.0807765E-12
+gforcex: 1.05254659E17
+gforcey: -1.5274242E-26
+gforcez: -4.5620463E-14
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.1276578E-9 0
+posx: 1202.4586
+posy: 2.2615308E20
+posz: 2.0552043E-25
+quatx: -5.4255417E-10
+quaty: 3.084138E-12
+quatz: -5.425541E-10
+quatw: 3.0841378E-12
+gforcex: 1.79470723E17
+gforcey: -5.7222235E-20
+gforcez: -1.2965464E-13
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.0889988E-9 0
+posx: 10618.536
+posy: 2.3714397E20
+posz: 2.0552043E-25
+quatx: -3.6423624E-15
+quaty: 3.0874546E-12
+quatz: -3.6423615E-15
+quatw: 3.0874546E-12
+gforcex: 1.86462861E17
+gforcey: -7.6654605E-14
+gforcez: -2.1829825E-13
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 2.0520579E-9 0
+posx: 92740.09
+posy: 4.0585068E20
+posz: 2.0552043E-25
+quatx: -4.394021E-20
+quaty: 3.0902312E-12
+quatz: -4.3940206E-20
+quatw: 3.090231E-12
+gforcex: 1.84835326E17
+gforcey: 6.470628E-8
+gforcez: -2.1625297E-13
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.2846303E-9 0
+posx: 804582.2
+posy: 6.697759E20
+posz: 2.0552043E-25
+quatx: -5.081298E-25
+quaty: 3.0929725E-12
+quatz: -5.081297E-25
+quatw: 3.0929725E-12
+gforcex: 2.92982809E17
+gforcey: 4.3585933E-5
+gforcez: -2.2176887E-13
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.2678394E-9 0
+posx: 6948174.0
+posy: 1.11311025E21
+posz: 2.0552043E-25
+quatx: -2.1339718E-31
+quaty: 3.0946812E-12
+quatz: -2.1339718E-31
+quatw: 3.094681E-12
+gforcex: 1.75686891E17
+gforcey: 0.02876672
+gforcez: -1.2493502E-13
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.2513681E-9 0
+posx: -8.9360937E9
+posy: 1.1365302E21
+posz: 2.0552043E-25
+quatx: 3.3863682E36
+quaty: 3.0968574E-12
+quatz: 3.386368E36
+quatw: 3.0968574E-12
+gforcex: 6.0564133E16
+gforcey: 19.003344
+gforcez: -2.5315792E-14
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 1.2360135E-9 0
+posx: -2.75570422E10
+posy: 1.9586222E21
+posz: 2.0552043E-25
+quatx: 4.6009382E26
+quaty: 5.1159754E-12
+quatz: 4.6009386E26
+quatw: 5.115975E-12
+gforcex: 1.23828395E16
+gforcey: 4185.548
+gforcez: -2.9451488E-15
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 7.490073E-10 0
+posx: -8.0205087E10
+posy: 1.984197E21
+posz: 2.0552043E-25
+quatx: -1.03520089E12
+quaty: 5.1181915E-12
+quatz: -1.03520076E12
+quatw: 5.118191E-12
+gforcex: 4.05818414E15
+gforcey: 529570.56
+gforcez: -5.7103054E-16
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 7.4231976E-10 0
+posx: -2.37926203E11
+posy: 1.9993283E21
+posz: 2.0552043E-25
+quatx: -5.3773537E-8
+quaty: 5.1193433E-12
+quatz: -5.3773533E-8
+quatw: 5.119343E-12
+gforcex: 1.41810076E15
+gforcey: 2.5082336E7
+gforcez: -1.08858166E-16
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 7.3593576E-10 0
+posx: -7.1169593E11
+posy: 2.0040073E21
+posz: 2.0552043E-25
+quatx: 2.0759097E37
+quaty: 5.12043E-12
+quatz: 2.0759097E37
+quatw: 5.12043E-12
+gforcex: 4.57571085E14
+gforcey: 6.5615443E8
+gforcez: -7.534951E-18
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 7.299606E-10 0
+posx: -2.04925803E12
+posy: 1.9978776E21
+posz: 2.0552043E-25
+quatx: -1.0928191E35
+quaty: 5.1204535E-12
+quatz: -1.0928189E35
+quatw: 5.1204535E-12
+gforcex: 9.5465815E13
+gforcey: 5.0269114E10
+gforcez: -1.4959848E-18
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 7.245551E-10 0
+posx: -6.2916133E12
+posy: 1.9809433E21
+posz: 2.0552043E-25
+quatx: -6.2039674E-29
+quaty: 5.1204106E-12
+quatz: -6.203966E-29
+quatw: 5.1204106E-12
+gforcex: 1.75934926E13
+gforcey: 7.3849995E11
+gforcez: -9.859705E-20
+msg length: 86
+Telemetry:
+current rendered frame: 1
+view mode: 0
+current coaster: 11
+speed: 7.1958844E-10 0
+posx: -1.7544415E13
+posy: 1.15203634E21
+posz: 2.0552043E-25
+quatx: -0.023967255
+quaty: 5.119306E-12
+quatz: -0.023967255
+quatw: 5.1193056E-12
+gforcex: 6.1641856E12
+gforcey: 6.4739884E12
+gforcez: -1.1539588E-20
+msg length: 86
