@@ -7,17 +7,22 @@ enum
 {
 	MAXPOOL		= 4
 };
-
+// -------- Cut or change -------------
+// -------------------
 #define left	u.s.bhl
 #define right	u.s.bhr
+//--------------------
 #define fwd	u.s.bhf
 #define prev	u.s.bhv
+// -------- Rename --------------------
+//--------------------
 #define parent	u.s.bhp
+//--------------------
 
 #define RESERVED	512*1024
 
 struct Pool
-{
+{ // ---------- Marked for modificaiton -------------
 	char*	name;
 	int	pnum;
 	ulong	maxsize;
@@ -29,13 +34,13 @@ struct Pool
 	ulong	arenasize;
 	ulong	hw;
 	Lock	l;
-	Bhdr*	root;
-	Bhdr*	chain;
+	Bhdr*	root; // Modify?
+	Bhdr*	chain; // Modify?
 	ulong	nalloc;
 	ulong	nfree;
 	int	nbrk;
 	int	lastfree;
-	void	(*move)(void*, void*);
+	void	(*move)(void*, void*); // Modify?
 };
 
 void*	initbrk(ulong);
