@@ -267,12 +267,9 @@ pooladd(Pool *p, Bhdr *q)
 			q->fwd = t;
 			t->back = q;
 			return;
-		}
+		} // Marked for serious improvement
 		tp = t;
-		if(size < t->size)
-			t = t->left;
-		else
-			t = t->right;
+		t = t->next;
 	}
 
 	q->prev = tp;
