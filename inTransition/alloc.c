@@ -162,88 +162,45 @@ poolchain(Pool *p)
 void
 pooldel(Pool *p, Bhdr *t)
 {// -------- Marked for death ---------------
-	Bhdr *s, *f, *rp, *q;
+	Bhdr *temp, *tp;
 
+	// Case 1
 	if(t->prev == nil && p->root != t) {
 		t->back->fwd = t->fwd;
 		t->fwd->back = t->back;
 		return;
 	}
-
-	if(t->fwd != t) {
-		f = t->fwd;
-		s = t->prev;
-		f->prev = s;
-		if(s == nil)
-			p->root = f;
-		else {
-			if(s->left == t)
-				s->left = f;
-			else
-				s->right = f;
+	
+	// Cases 2.2 and 3.1
+	if(t->fwd != t){
+		tp = t->fwd;
+		if(t->prev == nil){
+			p->root = tp;
 		}
-
-		rp = t->left;
-		f->left = rp;
-		if(rp != nil)
-			rp->prev = f;
-		rp = t->right;
-		f->right = rp;
-		if(rp != nil)
-			rp->prev = f;
-
-		t->prev->fwd = t->fwd;
-		t->fwd->back = t->back;
+		tp->prev = t->prev;
+		tp->next = t->next;
+		t->back->fwd = t->fwd;
+		tp->back = t->back;
 		return;
 	}
-
-	if(t->left == nil)
-		rp = t->right;
-	else {
-		if(t->right == nil)
-			rp = t->left;
-		else {
-			f = t;
-			rp = t->right;
-			s = rp->left;
-			while(s != nil) {
-				f = rp;
-				rp = s;
-				s = rp->left;
-			}
-			if(f != t) {
-				s = rp->right;
-				f->left = s;
-				if(s != nil)
-					s->prev = f;
-				s = t->right;
-				rp->right = s;
-				if(s != nil)
-					s->prev = rp;
-			}
-			s = t->left;
-			rp->left = s;
-			s->prev = rp;
-		}
+	
+	// Case 3.2
+	if(t->prev == nil){
+		p->root = t->next;
+		t->next->prev = nil;
+		return;
 	}
-	q = t->prev;
-	if(q == nil)
-		p->root = rp;
-	else {
-		if(t == q->left)
-			q->left = rp;
-		else
-			q->right = rp;
-	}
-	if(rp != nil)
-		rp->back = q;
+	
+	// case 2.1
+	t->prev->next = t->next;
+	t->next->prev = t->prev;
 }
 
 void
 pooladd(Pool *p, Bhdr *q)
 { // ------------- Marked for death ---------------
 	int size;
-	Bhdr *tp, *t;
+	Bhdr *tp, *t, *temp;
 
 	q->magic = MAGIC_F;
 
@@ -258,30 +215,39 @@ pooladd(Pool *p, Bhdr *q)
 	}
 
 	size = q->size;
-
-	tp = nil;
-	while(t != nil) {
-		if(size == t->size) {
-			q->back = t->back;
-			q->back->fwd = q;
-			q->fwd = t;
-			t->back = q;
+	
+	if(t->size > size){
+		p->root = q;
+		t->prev = q;
+		q->next = t;
+		return;
+	}
+	
+	tp = t;
+	t = t->next;
+	
+	while(t != nil){
+		if(t->size == size){
+			t->fwd->back = q;
+			t->fwd = q;
 			return;
-		} // Marked for serious improvement
+		}
+		if(t->size > size){
+			tp->fwd->back = q;
+			tp->fwd = q;
+			return;
+		}
 		tp = t;
 		t = t->next;
 	}
-
+	
+	tp->next = q;
 	q->prev = tp;
-	if(size < tp->size)
-		tp->left = q;
-	else
-		tp->right = q;
 }
 
 static void*
 dopoolalloc(Pool *p, ulong asize, ulong pc)
-{ // ------------------ Marked for death ---------------
+{ // ------------------ Marked for slight modification ---------------
 	Bhdr *q, *t;
 	int alloc, ldr, ns, frag;
 	int osize, size;
@@ -312,10 +278,8 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		}
 		if(size < t->size) {
 			q = t; // Work on these lines
-			t = t->left;
+			t = t->next;
 		}
-		else
-			t = t->right;
 	}
 	if(q != nil) {
 		pooldel(p, q);
@@ -532,10 +496,8 @@ poolmax(Pool *p)
 	size = p->maxsize - p->cursize;
 	t = p->root;
 	if(t != nil) {
-		while(t->right != nil)
-			t = t->right;
-		if(size < t->size)
-			size = t->size;
+		size = t->size;
+		t = t->next;
 	}
 	if(size >= BHDRSIZE)
 		size -= BHDRSIZE;
