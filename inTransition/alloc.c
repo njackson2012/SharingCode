@@ -157,21 +157,21 @@ poolchain(Pool *p)
 void
 pooldel(Pool *p, Bhdr *t)
 {// -------- Marked for death ---------------
-	print("Deleting from pool size:%d\n", t->size);
+	//print("Deleting from pool size:%d\n", t->size);
 	Bhdr *tp;
 
 	// Case 1
 	if(t->prev == nil && p->root != t) {
-		print("del case 1\n");
+		//print("del case 1\n");
 		t->back->fwd = t->fwd;
 		t->fwd->back = t->back;
-		print("Delete return\n");
+		//print("Delete return\n");
 		return;
 	}
 	
 	// Cases 2.2 and 3.1
 	if(t->fwd != t){
-		print("del cases 2.2 and 3.1\n");
+		//print("del cases 2.2 and 3.1\n");
 		tp = t->fwd;
 		if(t->prev == nil){
 			p->root = tp;
@@ -180,7 +180,7 @@ pooldel(Pool *p, Bhdr *t)
 		tp->nxt = t->nxt;
 		t->back->fwd = t->fwd;
 		tp->back = t->back;
-		print("Delete return\n");
+		//print("Delete return\n");
 		return;
 	}
 	
@@ -196,18 +196,18 @@ pooldel(Pool *p, Bhdr *t)
 	}
 	
 	// case 2.1
-	print("del case 2.1\n");
+	//print("del case 2.1\n");
 	t->prev->nxt = t->nxt;
-	if(t->next != nil){
+	if(t->nxt != nil){
 		t->nxt->prev = t->prev;
 	}
-	print("Delete return\n");
+	//print("Delete return\n");
 }
 
 void
 pooladd(Pool *p, Bhdr *q)
 { // ------------- Marked for death ---------------
-	print("Adding to pool size:%d\n", q->size);
+	//print("Adding to pool size:%d\n", q->size);
 	int size;
 	Bhdr *tp, *t, *temp;
 
@@ -220,7 +220,7 @@ pooladd(Pool *p, Bhdr *q)
 	t = p->root;
 	if(t == nil) {
 		p->root = q;
-		print("Add return\n");
+		//print("Add return\n");
 		return;
 	}
 
@@ -230,7 +230,7 @@ pooladd(Pool *p, Bhdr *q)
 		p->root = q;
 		t->prev = q;
 		q->nxt = t;
-		print("Add return\n");
+		//print("Add return\n");
 		return;
 	}
 	
@@ -242,14 +242,14 @@ pooladd(Pool *p, Bhdr *q)
 			q->back->fwd = q;
 			q->fwd = t;
 			t->back = q;
-			print("Add return\n");
+			//print("Add return\n");
 			return;
 		}
 		if(t->size > size){
 			tp->nxt = q;
 			q->nxt = t;
 			t->prev = q;
-			print("Add return\n");
+			//print("Add return\n");
 			return;
 		}
 		tp = t;
@@ -263,13 +263,13 @@ pooladd(Pool *p, Bhdr *q)
 static void*
 dopoolalloc(Pool *p, ulong asize, ulong pc)
 { // ------------------ Marked for slight modification ---------------
-	print("allocating from pool\n");
+	//print("allocating from pool\n");
 	Bhdr *q, *t;
 	int alloc, ldr, ns, frag;
 	int osize, size;
 
 	if(asize >= 1024*1024*1024){	/* for sanity and to avoid overflow */
-		print("Alloc return\n");
+		//print("Alloc return\n");
 		return nil;
 	}
 	size = asize;
@@ -281,7 +281,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 
 	t = p->root;
 	q = nil;
-	while(t) {
+	while(t != nil) {
 		if(t->size == size) {
 			t = t->fwd;
 			pooldel(p, t);
@@ -292,7 +292,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 			unlock(&p->l);
 			if(p->monitor)
 				MM(p->pnum, pc, (ulong)B2D(t), size);
-			print("Alloc return\n");
+			//print("Alloc return\n");
 			return B2D(t);
 		}
 		if(size < t->size) {
@@ -311,7 +311,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 			unlock(&p->l);
 			if(p->monitor)
 				MM(p->pnum, pc, (ulong)B2D(q), size);
-			print("Alloc return\n");
+			//print("Alloc return\n");
 			return B2D(q);
 		}
 		/* Split */
@@ -328,7 +328,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		unlock(&p->l);
 		if(p->monitor)
 			MM(p->pnum, pc, (ulong)B2D(q), size);
-		print("Alloc return\n");
+		//print("Alloc return\n");
 		return B2D(q);
 	}
 
@@ -346,14 +346,14 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		if (ns < size) {
 			if(poolcompact(p)) {
 				unlock(&p->l);
-				print("Alloc return\n");
+				//print("Alloc return\n");
 				return poolalloc(p, osize);
 			}
 
 			unlock(&p->l);
 			print("arena %s too large: size %d cursize %lud arenasize %lud maxsize %lud\n",
 			 p->name, size, p->cursize, p->arenasize, p->maxsize);
-			print("Alloc return\n");
+			//print("Alloc return\n");
 			return nil;
 		}
 		alloc = ns+ldr+ldr;
@@ -365,7 +365,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 	if(t == (void*)-1) {
 		p->nbrk--;
 		unlock(&p->l);
-		print("Alloc return\n");
+		//print("Alloc return\n");
 		return nil;
 	}
 	/* Double alignment */
@@ -384,7 +384,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		p->cursize += alloc;
 		unlock(&p->l);
 		poolfree(p, B2D(q));		/* for backward merge */
-		print("Alloc return\n");
+		//print("Alloc return\n");
 		return poolalloc(p, osize);
 	}
 	
@@ -416,7 +416,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 	unlock(&p->l);
 	if(p->monitor)
 		MM(p->pnum, pc, (ulong)B2D(t), size);
-	print("Alloc return\n");
+	//print("Alloc return\n");
 	return B2D(t);
 }
 
