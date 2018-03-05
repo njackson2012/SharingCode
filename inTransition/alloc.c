@@ -275,7 +275,9 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 	size = asize;
 	osize = size;
 	size = (size + BHDRSIZE + p->quanta) & ~(p->quanta);
-
+	
+	print("dead1\n");
+	
 	lock(&p->l);
 	p->nalloc++;
 
@@ -300,10 +302,16 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		t = t->nxt;
 		
 	}
+	
+	print("dead2\n");
+	
 	if(q != nil) {
 		pooldel(p, q);
 		q->magic = MAGIC_A;
 		frag = q->size - size;
+		
+		print("dead3\n");
+		
 		if(frag < (size>>2) && frag < 0x8000) {
 			p->cursize += q->size;
 			if(p->cursize > p->hw)
@@ -315,6 +323,8 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 			return B2D(q);
 		}
 		/* Split */
+		print("dead4\n");
+		
 		ns = q->size - size;
 		q->size = size;
 		B2T(q)->hdr = q;
@@ -323,6 +333,9 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		B2T(t)->hdr = t;
 		pooladd(p, t);
 		p->cursize += q->size;
+		
+		print("dead5\n");
+		
 		if(p->cursize > p->hw)
 			p->hw = p->cursize;
 		unlock(&p->l);
@@ -336,13 +349,18 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 	if(size > ns)
 		ns = size;
 	ldr = p->quanta+1;
-
+	
+	print("dead6\n");
+	
 	alloc = ns+ldr+ldr;
 	p->arenasize += alloc;
 	if(p->arenasize > p->maxsize) {
 		p->arenasize -= alloc;
 		ns = p->maxsize-p->arenasize-ldr-ldr;
 		ns &= ~p->quanta;
+		
+		print("dead7\n");
+		
 		if (ns < size) {
 			if(poolcompact(p)) {
 				unlock(&p->l);
@@ -360,6 +378,8 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		p->arenasize += alloc;
 	}
 
+	print("dead8\n");
+	
 	p->nbrk++;
 	t = (Bhdr *)sbrk(alloc);
 	if(t == (void*)-1) {
@@ -369,6 +389,8 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		return nil;
 	}
 	/* Double alignment */
+	print("dead9\n");
+	
 	t = (Bhdr *)(((ulong)t + 7) & ~7);
 
 	if(p->chain != nil && (char*)t-(char*)B2LIMIT(p->chain)-ldr == 0){
@@ -388,6 +410,8 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		return poolalloc(p, osize);
 	}
 	
+	print("dead10\n");
+	
 	t->magic = MAGIC_E;		/* Make a leader */
 	t->size = ldr;
 	t->csize = ns+ldr;
@@ -403,11 +427,17 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 
 	ns -= size;			/* Free the rest */
 	if(ns > 0) {
+		
+		print("dead11\n");
+		
 		q = B2NB(t);
 		q->size = ns;
 		B2T(q)->hdr = q;
 		pooladd(p, q);
 	}
+	
+	print("dead12\n");
+	
 	B2NB(q)->magic = MAGIC_E;	/* Mark the end of the chunk */
 
 	p->cursize += t->size;
@@ -416,7 +446,9 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 	unlock(&p->l);
 	if(p->monitor)
 		MM(p->pnum, pc, (ulong)B2D(t), size);
-	//print("Alloc return\n");
+	
+	print("Alloc return\n");
+	
 	return B2D(t);
 }
 
