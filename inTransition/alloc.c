@@ -162,6 +162,7 @@ pooldel(Pool *p, Bhdr *t)
 
 	// Case 1
 	if(t->prev == nil && p->root != t) {
+		print("del case 1\n");
 		t->back->fwd = t->fwd;
 		t->fwd->back = t->back;
 		print("Delete return\n");
@@ -170,6 +171,7 @@ pooldel(Pool *p, Bhdr *t)
 	
 	// Cases 2.2 and 3.1
 	if(t->fwd != t){
+		print("del cases 2.2 and 3.1\n");
 		tp = t->fwd;
 		if(t->prev == nil){
 			p->root = tp;
@@ -184,6 +186,7 @@ pooldel(Pool *p, Bhdr *t)
 	
 	// Case 3.2
 	if(t->prev == nil){
+		print("del case 3.2\n");
 		p->root = t->nxt;
 		t->nxt->prev = nil;
 		print("Delete return\n");
@@ -191,6 +194,7 @@ pooldel(Pool *p, Bhdr *t)
 	}
 	
 	// case 2.1
+	print("del case 2.1\n");
 	t->prev->nxt = t->nxt;
 	t->nxt->prev = t->prev;
 	print("Delete return\n");
