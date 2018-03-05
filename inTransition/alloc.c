@@ -9,16 +9,11 @@ enum
 {
 	MAXPOOL		= 4
 };
-// -------- Cut or change -------------
-// -------------------
-#define next	u.s.bhn
-//--------------------
+
+#define nxt	u.s.bhn
 #define fwd	u.s.bhf
 #define back	u.s.bhb
-// -------- Rename --------------------
-//--------------------
 #define prev	u.s.bhp
-//--------------------
 
 #define RESERVED	512*1024
 
@@ -178,7 +173,7 @@ pooldel(Pool *p, Bhdr *t)
 			p->root = tp;
 		}
 		tp->prev = t->prev;
-		tp->next = t->next;
+		tp->nxt = t->nxt;
 		t->back->fwd = t->fwd;
 		tp->back = t->back;
 		return;
@@ -186,14 +181,14 @@ pooldel(Pool *p, Bhdr *t)
 	
 	// Case 3.2
 	if(t->prev == nil){
-		p->root = t->next;
-		t->next->prev = nil;
+		p->root = t->nxt;
+		t->nxt->prev = nil;
 		return;
 	}
 	
 	// case 2.1
-	t->prev->next = t->next;
-	t->next->prev = t->prev;
+	t->prev->nxt = t->nxt;
+	t->nxt->prev = t->prev;
 }
 
 void
@@ -219,12 +214,12 @@ pooladd(Pool *p, Bhdr *q)
 	if(t->size > size){
 		p->root = q;
 		t->prev = q;
-		q->next = t;
+		q->nxt = t;
 		return;
 	}
 	
 	tp = t;
-	t = t->next;
+	t = t->nxt;
 	
 	while(t != nil){
 		if(t->size == size){
@@ -238,10 +233,10 @@ pooladd(Pool *p, Bhdr *q)
 			return;
 		}
 		tp = t;
-		t = t->next;
+		t = t->nxt;
 	}
 	
-	tp->next = q;
+	tp->nxt = q;
 	q->prev = tp;
 }
 
@@ -278,7 +273,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		}
 		if(size < t->size) {
 			q = t; // Work on these lines
-			t = t->next;
+			t = t->nxt;
 		}
 	}
 	if(q != nil) {
@@ -497,7 +492,7 @@ poolmax(Pool *p)
 	t = p->root;
 	if(t != nil) {
 		size = t->size;
-		t = t->next;
+		t = t->nxt;
 	}
 	if(size >= BHDRSIZE)
 		size -= BHDRSIZE;
