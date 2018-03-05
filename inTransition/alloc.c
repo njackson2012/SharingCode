@@ -157,7 +157,7 @@ poolchain(Pool *p)
 void
 pooldel(Pool *p, Bhdr *t)
 {// -------- Marked for death ---------------
-	print("Deleting from pool\n");
+	print("Deleting from pool size:%d\n", t->size);
 	Bhdr *tp;
 
 	// Case 1
@@ -195,7 +195,7 @@ pooldel(Pool *p, Bhdr *t)
 void
 pooladd(Pool *p, Bhdr *q)
 { // ------------- Marked for death ---------------
-	print("Adding to pool\n");
+	print("Adding to pool size:%d\n", q->size);
 	int size;
 	Bhdr *tp, *t, *temp;
 
