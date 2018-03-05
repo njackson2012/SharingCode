@@ -157,7 +157,7 @@ poolchain(Pool *p)
 void
 pooldel(Pool *p, Bhdr *t)
 {// -------- Marked for death ---------------
-	Bhdr *temp, *tp;
+	Bhdr *tp;
 
 	// Case 1
 	if(t->prev == nil && p->root != t) {
@@ -218,18 +218,20 @@ pooladd(Pool *p, Bhdr *q)
 		return;
 	}
 	
-	tp = t;
-	t = t->nxt;
+	tp = nil;
 	
 	while(t != nil){
 		if(t->size == size){
-			t->fwd->back = q;
-			t->fwd = q;
+			q->back = t->back;
+			q->back->fwd = q;
+			q->fwd = t;
+			t->back = q;
 			return;
 		}
 		if(t->size > size){
-			tp->fwd->back = q;
-			tp->fwd = q;
+			tp->nxt = q;
+			q->nxt = t;
+			t->prev = q;
 			return;
 		}
 		tp = t;
