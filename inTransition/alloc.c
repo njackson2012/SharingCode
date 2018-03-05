@@ -295,10 +295,10 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 			//print("Alloc return\n");
 			return B2D(t);
 		}
-		if(size < t->size) {
-			q = t; // Work on these lines
-			t = t->nxt;
-		}
+		
+		q = t; // Work on these lines
+		t = t->nxt;
+		
 	}
 	if(q != nil) {
 		pooldel(p, q);
