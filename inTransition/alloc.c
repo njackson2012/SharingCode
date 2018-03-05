@@ -186,19 +186,21 @@ pooldel(Pool *p, Bhdr *t)
 	
 	// Case 3.2
 	if(t->prev == nil){
-		print("del case 3.2\n");
+		//print("del case 3.2\n");
 		p->root = t->nxt;
 		if(t->nxt != nil){
 			t->nxt->prev = nil;
 		}
-		print("Delete return\n");
+		//print("Delete return\n");
 		return;
 	}
 	
 	// case 2.1
 	print("del case 2.1\n");
 	t->prev->nxt = t->nxt;
-	t->nxt->prev = t->prev;
+	if(t->next != nil){
+		t->nxt->prev = t->prev;
+	}
 	print("Delete return\n");
 }
 
