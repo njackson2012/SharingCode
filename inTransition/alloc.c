@@ -260,9 +260,10 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 	int alloc, ldr, ns, frag;
 	int osize, size;
 
-	if(asize >= 1024*1024*1024)	/* for sanity and to avoid overflow */
+	if(asize >= 1024*1024*1024){	/* for sanity and to avoid overflow */
 		print("Alloc return\n");
 		return nil;
+	}
 	size = asize;
 	osize = size;
 	size = (size + BHDRSIZE + p->quanta) & ~(p->quanta);
