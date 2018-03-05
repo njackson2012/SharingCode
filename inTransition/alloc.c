@@ -157,7 +157,7 @@ poolchain(Pool *p)
 void
 pooldel(Pool *p, Bhdr *t)
 {// -------- Marked for death ---------------
-	//print("Deleting from pool size:%d\n", t->size);
+	print("Deleting from pool size:%d\n", t->size);
 	Bhdr *tp;
 
 	// Case 1
@@ -207,7 +207,7 @@ pooldel(Pool *p, Bhdr *t)
 void
 pooladd(Pool *p, Bhdr *q)
 { // ------------- Marked for death ---------------
-	//print("Adding to pool size:%d\n", q->size);
+	print("Adding to pool size:%d\n", q->size);
 	int size;
 	Bhdr *tp, *t, *temp;
 
@@ -263,7 +263,7 @@ pooladd(Pool *p, Bhdr *q)
 static void*
 dopoolalloc(Pool *p, ulong asize, ulong pc)
 { // ------------------ Marked for slight modification ---------------
-	//print("allocating from pool\n");
+	print("allocating from pool\n");
 	Bhdr *q, *t;
 	int alloc, ldr, ns, frag;
 	int osize, size;
