@@ -285,6 +285,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 	q = nil;
 	print("dead1.1\n");
 	while(t != nil) {
+		print("dead1.1.1\n");
 		if(t->size == size) {
 			print("dead1.2\n");
 			t = t->fwd;
