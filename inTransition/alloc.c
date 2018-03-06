@@ -336,12 +336,18 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		
 		print("dead5\n");
 		
-		if(p->cursize > p->hw)
+		if(p->cursize > p->hw){
+			print("dead5.1\n");
 			p->hw = p->cursize;
+		}
+		print("dead5.2\n");
 		unlock(&p->l);
-		if(p->monitor)
+		print("dead5.3\n");
+		if(p->monitor){
+			print("dead5.4\n");
 			MM(p->pnum, pc, (ulong)B2D(q), size);
-		//print("Alloc return\n");
+		}
+		print("Alloc return\n");
 		return B2D(q);
 	}
 
