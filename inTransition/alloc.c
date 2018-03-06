@@ -298,7 +298,9 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 			return B2D(t);
 		}
 		
-		//q = t;
+		if(size < t->size){
+			q = t;
+		}
 		t = t->nxt;
 		
 	}
