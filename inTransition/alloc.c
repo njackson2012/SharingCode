@@ -260,10 +260,21 @@ pooladd(Pool *p, Bhdr *q)
 	q->prev = tp;
 }
 
+int
+howBigIsPool(Pool *p){
+	int n = 0;
+	Bhdr *t = p->root;
+	while(t != nil){
+		t = t->nxt;
+		n++;
+	}
+	return n;
+}
+
 static void*
 dopoolalloc(Pool *p, ulong asize, ulong pc)
 { // ------------------ Marked for slight modification ---------------
-	print("allocating from pool\n");
+	print("allocating from pool sized: %d\n", howBigIsPool(p));
 	Bhdr *q, *t;
 	int alloc, ldr, ns, frag;
 	int osize, size;
