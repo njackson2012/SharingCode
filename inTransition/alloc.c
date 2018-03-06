@@ -283,8 +283,10 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 
 	t = p->root;
 	q = nil;
+	print("dead1.1\n");
 	while(t != nil) {
 		if(t->size == size) {
+			print("dead1.2\n");
 			t = t->fwd;
 			pooldel(p, t);
 			t->magic = MAGIC_A;
@@ -297,12 +299,12 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 			//print("Alloc return\n");
 			return B2D(t);
 		}
-		
+		print("dead1.3\n");
 		if(size < t->size){
 			q = t;
 		}
 		t = t->nxt;
-		
+		print("dead1.4\n");
 	}
 	
 	print("dead2\n");
