@@ -336,12 +336,17 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		
 		print("dead5\n");
 		
+		// Dies somewhere between here
+		
 		if(p->cursize > p->hw)
 			p->hw = p->cursize;
 		unlock(&p->l);
 		if(p->monitor)
 			MM(p->pnum, pc, (ulong)B2D(q), size);
+		
+		// And here
 		print("Alloc return\n");
+		
 		return B2D(q);
 	}
 
