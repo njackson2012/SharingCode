@@ -341,7 +341,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		unlock(&p->l);
 		if(p->monitor)
 			MM(p->pnum, pc, (ulong)B2D(q), size);
-		//print("Alloc return\n");
+		print("Alloc return\n");
 		return B2D(q);
 	}
 
