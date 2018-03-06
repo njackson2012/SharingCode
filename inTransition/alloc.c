@@ -271,10 +271,22 @@ howBigIsPool(Pool *p){
 	return n;
 }
 
+void
+outputPool(Pool *p){
+	Bhdr *t = p->root;
+	while(t != nil){
+		print("%ld, ", t->size);
+		t = t->nxt;
+	}
+}
+
 static void*
 dopoolalloc(Pool *p, ulong asize, ulong pc)
 { // ------------------ Marked for slight modification ---------------
 	print("allocating from pool sized: %d\n", howBigIsPool(p));
+	print("It looks like this: ");
+	outputPool(p);
+	print("\n");
 	Bhdr *q, *t;
 	int alloc, ldr, ns, frag;
 	int osize, size;
