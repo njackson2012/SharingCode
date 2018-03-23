@@ -166,6 +166,9 @@ pooldel(Pool *p, Bhdr *t)
 		t->back->fwd = t->fwd;
 		t->fwd->back = t->back;
 		//print("Delete return\n");
+		outputPool(p);
+		print("\n");
+
 		return;
 	}
 	
@@ -181,6 +184,9 @@ pooldel(Pool *p, Bhdr *t)
 		t->back->fwd = t->fwd;
 		tp->back = t->back;
 		//print("Delete return\n");
+		outputPool(p);
+		print("\n");
+
 		return;
 	}
 	
@@ -192,6 +198,9 @@ pooldel(Pool *p, Bhdr *t)
 			t->nxt->prev = nil;
 		}
 		//print("Delete return\n");
+		outputPool(p);
+		print("\n");
+
 		return;
 	}
 	
@@ -201,6 +210,9 @@ pooldel(Pool *p, Bhdr *t)
 	if(t->nxt != nil){
 		t->nxt->prev = t->prev;
 	}
+	outputPool(p);
+	print("\n");
+
 	//print("Delete return\n");
 }
 
@@ -219,18 +231,25 @@ pooladd(Pool *p, Bhdr *q)
 
 	t = p->root;
 	if(t == nil) {
+		//print("Case1\n");
 		p->root = q;
 		//print("Add return\n");
+		outputPool(p);
+		print("\n");
 		return;
 	}
 
 	size = q->size;
 	
 	if(t->size > size){
+		//print("Case2: q:%ld t:%ld\n", q->size, t->size);
 		p->root = q;
 		t->prev = q;
 		q->nxt = t;
 		//print("Add return\n");
+		outputPool(p);
+		print("\n");
+
 		return;
 	}
 	
@@ -238,26 +257,42 @@ pooladd(Pool *p, Bhdr *q)
 	
 	while(t != nil){
 		if(t->size == size){
+			//print("Case3\n");
 			q->back = t->back;
 			q->back->fwd = q;
 			q->fwd = t;
 			t->back = q;
 			//print("Add return\n");
+			outputPool(p);
+			print("\n");
+
 			return;
 		}
 		if(t->size > size){
+			//print("Case4\n");
 			tp->nxt = q;
 			q->nxt = t;
 			t->prev = q;
 			//print("Add return\n");
+			outputPool(p);
+			print("\n");
+
 			return;
 		}
 		tp = t;
 		t = t->nxt;
 	}
 	
+	//print("Case5: tp:%ld q:%ld", tp->size, q->size);
+	if(q->nxt != nil){
+		//print(" qnxt:%ld", q->nxt->size);
+	}
+	//print("\n");
 	tp->nxt = q;
 	q->prev = tp;
+	outputPool(p);
+	print("\n");
+
 }
 
 int
@@ -274,6 +309,10 @@ howBigIsPool(Pool *p){
 void
 outputPool(Pool *p){
 	Bhdr *t = p->root;
+	if(t == nil){
+		print("Pool empty");
+		return;
+	}
 	while(t != nil){
 		print("%ld, ", t->size);
 		t = t->nxt;
@@ -283,7 +322,7 @@ outputPool(Pool *p){
 static void*
 dopoolalloc(Pool *p, ulong asize, ulong pc)
 { // ------------------ Marked for slight modification ---------------
-	print("allocating from pool sized: %d\n", howBigIsPool(p));
+	print("allocating size: %ld\n", asize);
 	print("It looks like this: ");
 	outputPool(p);
 	print("\n");
@@ -296,21 +335,23 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		return nil;
 	}
 	size = asize;
+	print("%d -> ", size);
 	osize = size;
 	size = (size + BHDRSIZE + p->quanta) & ~(p->quanta);
-	
-	print("dead1\n");
+	print("%d\n", size);
+
+	//print("dead1\n");
 	
 	lock(&p->l);
 	p->nalloc++;
 
 	t = p->root;
 	q = nil;
-	print("dead1.1\n");
+	//print("dead1.1\n");
 	while(t != nil) {
-		print("dead1.1.1\n");
+		//print("dead1.1.1\n");
 		if(t->size == size) {
-			print("dead1.2\n");
+			//print("dead1.2\n");
 			t = t->fwd;
 			pooldel(p, t);
 			t->magic = MAGIC_A;
@@ -320,15 +361,19 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 			unlock(&p->l);
 			if(p->monitor)
 				MM(p->pnum, pc, (ulong)B2D(t), size);
-			//print("Alloc return\n");
+			//print("alloc return\n");
 			return B2D(t);
 		}
-		print("dead1.3\n");
+		//print("dead1.3\n");
+		print("%ld\n", t->size);
 		if(size < t->size){
 			q = t;
+			t = nil;
 		}
-		t = t->nxt;
-		print("dead1.4\n");
+		else{
+			t = t->nxt;
+		}
+		//print("dead1.4\n");
 	}
 	
 	print("dead2\n");
@@ -347,11 +392,11 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 			unlock(&p->l);
 			if(p->monitor)
 				MM(p->pnum, pc, (ulong)B2D(q), size);
-			//print("Alloc return\n");
+			//print("alloc return\n");
 			return B2D(q);
 		}
-		/* Split */
-		print("dead4\n");
+		/* split */
+		//print("dead4\n");
 		
 		ns = q->size - size;
 		q->size = size;
@@ -359,26 +404,27 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		t = B2NB(q);
 		t->size = ns;
 		B2T(t)->hdr = t;
+		print("add from 405\n");
 		pooladd(p, t);
 		p->cursize += q->size;
 		
 		print("dead5\n");
 		
 		if(p->cursize > p->hw){
-			print("dead5.1\n");
+			//print("dead5.1\n");
 			p->hw = p->cursize;
 		}
 		print("dead5.2\n");
 		unlock(&p->l);
 		print("dead5.3\n");
 		if(p->monitor){
-			print("dead5.4\n");
+			//print("dead5.4\n");
 			MM(p->pnum, pc, (ulong)B2D(q), size);
 		}
-		print("Alloc return\n");
+		print("alloc return\n");
 		return B2D(q);
 	}
-
+	//print("dead5.4\n");
 	ns = p->chunk;
 	if(size > ns)
 		ns = size;
@@ -393,7 +439,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		ns = p->maxsize-p->arenasize-ldr-ldr;
 		ns &= ~p->quanta;
 		
-		print("dead7\n");
+		//print("dead7\n");
 		
 		if (ns < size) {
 			if(poolcompact(p)) {
@@ -412,7 +458,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		p->arenasize += alloc;
 	}
 
-	print("dead8\n");
+	//print("dead8\n");
 	
 	p->nbrk++;
 	t = (Bhdr *)sbrk(alloc);
@@ -423,12 +469,12 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		return nil;
 	}
 	/* Double alignment */
-	print("dead9\n");
 	
 	t = (Bhdr *)(((ulong)t + 7) & ~7);
 
 	if(p->chain != nil && (char*)t-(char*)B2LIMIT(p->chain)-ldr == 0){
 		/* can merge chains */
+		//print("dead9\n");
 		if(0)print("merging chains %p and %p in %s\n", p->chain, t, p->name);
 		q = B2LIMIT(p->chain);
 		q->magic = MAGIC_A;
@@ -444,7 +490,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 		return poolalloc(p, osize);
 	}
 	
-	print("dead10\n");
+	//print("dead10\n");
 	
 	t->magic = MAGIC_E;		/* Make a leader */
 	t->size = ldr;
@@ -462,15 +508,16 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 	ns -= size;			/* Free the rest */
 	if(ns > 0) {
 		
-		print("dead11\n");
+		//print("dead11\n");
 		
 		q = B2NB(t);
 		q->size = ns;
 		B2T(q)->hdr = q;
+		print("add from 514\n");
 		pooladd(p, q);
 	}
 	
-	print("dead12\n");
+	//print("dead12\n");
 	
 	B2NB(q)->magic = MAGIC_E;	/* Mark the end of the chunk */
 
@@ -481,7 +528,7 @@ dopoolalloc(Pool *p, ulong asize, ulong pc)
 	if(p->monitor)
 		MM(p->pnum, pc, (ulong)B2D(t), size);
 	
-	print("Alloc return\n");
+	//print("Alloc return\n");
 	
 	return B2D(t);
 }
@@ -499,6 +546,7 @@ poolalloc(Pool *p, ulong asize)
 void
 poolfree(Pool *p, void *v)
 {
+	//print("new poolfree\n");
 	Bhdr *b, *c;
 	extern Bhdr *ptr;
 
@@ -511,6 +559,7 @@ poolfree(Pool *p, void *v)
 	p->cursize -= b->size;
 	c = B2NB(b);
 	if(c->magic == MAGIC_F) {	/* Join forward */
+		//print("Join forward\n");
 		if(c == ptr)
 			ptr = b;
 		pooldel(p, c);
@@ -521,6 +570,7 @@ poolfree(Pool *p, void *v)
 
 	c = B2PT(b)->hdr;
 	if(c->magic == MAGIC_F) {	/* Join backward */
+		//print("Join backward\n");
 		if(b == ptr)
 			ptr = c;
 		pooldel(p, c);
@@ -529,6 +579,7 @@ poolfree(Pool *p, void *v)
 		b = c;
 		B2T(b)->hdr = b;
 	}
+	print("add from 579\n");
 	pooladd(p, b);
 	unlock(&p->l);
 }
@@ -900,6 +951,7 @@ poolcompact(Pool *pool)
 				}
 				end->size = nb;
 				B2T(end)->hdr = end;
+				print("add from 952\n");
 				pooladd(pool, end);
 			}
 			base = base->clink;

@@ -283,12 +283,24 @@ pooladd(Pool *p, Bhdr *q)
 		tp->right = q;
 }
 
+void
+outputPool(Bhdr *n){
+	if(n != nil){
+		print("%ld, ", n->size);
+		outputPool(n->left);
+		outputPool(n->right);
+	}
+}
+
 static void*
 dopoolalloc(Pool *p, ulong asize, ulong pc)
 { // ---------------------- Marked for death? ---------------
 	Bhdr *q, *t;
 	int alloc, ldr, ns, frag;
 	int osize, size;
+
+	outputPool(p->root);
+	print("\n");
 
 	if(asize >= 1024*1024*1024)	/* for sanity and to avoid overflow */
 		return nil;
