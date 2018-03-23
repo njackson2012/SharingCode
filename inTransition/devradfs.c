@@ -44,6 +44,17 @@ radfsread(Chan *c, void *a, long n, vlong offset){
 	ulong pth;
 	pth = c->qid.path;
 	
+	buf = smalloc(READSTR);
+	if(waserror()){
+		free(buf);
+		nexterror();
+	}
+	
+	n = ctlsummary(buf, READSTR, getaudiodev());
+	count = readstr(offset, va, n, buf);
+	poperror();
+	free(buf);
+	return count;
 }
 
 Dev radfsdevtab = {
