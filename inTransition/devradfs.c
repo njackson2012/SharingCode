@@ -39,23 +39,22 @@ radfsclose(Chan *c){
 }
 
 static long
-radfsread(Chan *c, void *a, long n, vlong offset){
-	char* buff;
-	ulong pth;
-	pth = c->qid.path;
-	
-	buf = smalloc(READSTR);
-	if(waserror()){
-		free(buf);
-		nexterror();
-	}
-	
-	n = ctlsummary(buf, READSTR, getaudiodev());
-	count = readstr(offset, va, n, buf);
-	poperror();
-	free(buf);
-	return count;
+radfsread(Chan *c, void *buf, long n, vlong offset){
+	ulong len;
+	uchar *data;
+
+	if(c->qid.type & QTDIR)
+		return devdirread(c, buf, n, radtab, nelem(radtab), devgen);
+	len = nelem(radtab);
+	if(offset < 0 || offset >= len)
+		return 0;
+	if(offset+n > len)
+		n = len - offset;
+	data = radtab;
+	memmove(buf, data+offset, n);
+	return n;
 }
+
 
 Dev radfsdevtab = {
 	'R',
@@ -66,11 +65,10 @@ Dev radfsdevtab = {
 	radfswalk,   // done
 	radfsstat,   // done
 	radfsopen,   // done
-	radfscreate,
+	devcreate,   // done
 	radfsclose,  // done
-	radfsread,
+	radfsread,   // done
 	devbread,    // done
-	radfswrite,
 	devbwrite,   // done
 	devwstat     // done
 };
